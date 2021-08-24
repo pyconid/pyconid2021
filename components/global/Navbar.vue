@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-white shadow">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between h-16">
+      <div class="flex lg:justify-between h-16">
         <div class="flex">
           <div class="-ml-2 mr-2 flex items-center md:hidden">
             <!-- Mobile menu button -->
@@ -65,8 +65,8 @@
             </a>
           </div>
         </div>
-        <div class="flex flex-row items-center">
-          <img class="md:ml-auto h-12 w-auto lg:hidden" src="~/assets/image/logo.png" alt="PyCon">
+        <div class="flex flex-row items-center ml-auto mr-auto lg:hidden">
+          <img class="h-12 w-auto" src="~/assets/image/logo.png" alt="PyCon">
         </div>
       </div>
 
@@ -91,7 +91,6 @@ export default {
   },
   methods: {
     toggleNavbar () {
-      console.log('toggle')
       this.showMenu = !this.showMenu
     }
   }
