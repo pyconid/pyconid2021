@@ -34,7 +34,7 @@
               <span class="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">Coming soon</span>
               <span class="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
                 <span class="block text-gray-900">PyCon ID 2021</span>
-                <span class="block text-indigo-600">Python Everywhere</span>
+                <span class="block text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-info-600">Python Everywhere</span>
               </span>
             </h1>
             <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
@@ -42,13 +42,13 @@
             </p>
             <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
               <p class="text-base font-medium text-gray-900">
-                Sign up to get notified when it’s ready.
+                Sign up to get latest news about PyCon ID 2021.
               </p>
               <form action="#" method="POST" class="mt-3 sm:flex">
                 <label for="email" class="sr-only">Email</label>
-                <input id="email" type="text" name="email" class="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:flex-1 border-gray-300" placeholder="Enter your email">
-                <button type="submit" class="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
-                  Notify me
+                <input id="email" type="text" name="email" class="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-info-500 focus:border-info-500 sm:flex-1 border-gray-300" placeholder="Enter your email">
+                <button type="submit" class="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-info-800 shadow-sm hover:bg-info-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
+                  Sign up
                 </button>
               </form>
             </div>
@@ -84,13 +84,18 @@
               <rect y="72" width="640" height="640" class="text-gray-50" fill="currentColor" />
               <rect x="118" width="404" height="784" fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" />
             </svg>
+            <!-- to do, styling youtube embed -->
             <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
               <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 <span class="sr-only">Watch our video to learn more</span>
                 <iframe
                   width="100%"
-                  height="340"
-                  src="https://www.youtube.com/embed/1f6S3x1XUho"
+                  height="315"
+                  src="https://www.youtube-nocookie.com/embed/1f6S3x1XUho"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
                 />
               </button>
             </div>
