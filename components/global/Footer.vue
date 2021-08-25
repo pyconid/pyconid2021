@@ -53,7 +53,7 @@
           <p class="my-4 text-2xl font-semibold text-gray-500 md:my-0">
             Have a Question ?
           </p>
-
+          <!-- to do, styling email -->
           <a href="mailto:pycon@python.or.id" target="_blank" class="text-gray-400 hover:text-gray-500">
             <span class="sr-only">Email</span>
             <svg

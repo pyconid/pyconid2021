@@ -84,6 +84,7 @@
               <rect y="72" width="640" height="640" class="text-gray-50" fill="currentColor" />
               <rect x="118" width="404" height="784" fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" />
             </svg>
+            <!-- to do, styling youtube embed -->
             <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
               <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 <span class="sr-only">Watch our video to learn more</span>
