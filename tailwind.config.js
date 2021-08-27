@@ -2,11 +2,11 @@ module.exports = {
   mode: 'jit',
   purge: {
     content: [
-      `components/**/*.{vue,js}`,
-      `layouts/**/*.vue`,
-      `pages/**/*.vue`,
-      `plugins/**/*.{js,ts}`,
-      `nuxt.config.{js,ts}`
+      'components/**/*.{vue,js}',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.{js,ts}',
+      'nuxt.config.{js,ts}'
     ]
   },
   darkMode: false, // or 'media' or 'class'
@@ -22,7 +22,7 @@ module.exports = {
           600: '#B73942',
           700: '#99273A',
           800: '#7B1831',
-          900: '#660E2C'  
+          900: '#660E2C'
         },
         success: {
           100: '#E2F0F6',
@@ -33,7 +33,7 @@ module.exports = {
           600: '#213042',
           700: '#172437',
           800: '#0E192C',
-          900: '#081124'  
+          900: '#081124'
         },
         info: {
           100: '#CBF0FE',
@@ -44,7 +44,7 @@ module.exports = {
           600: '#0063D6',
           700: '#004AB3',
           800: '#003490',
-          900: '#002577'  
+          900: '#002577'
         },
         warning: {
           100: '#FBF5C9',
@@ -55,7 +55,7 @@ module.exports = {
           600: '#967802',
           700: '#7D6201',
           800: '#654D00',
-          900: '#533E00'  
+          900: '#533E00'
         },
         danger: {
           100: '#FDE6D5',
@@ -66,15 +66,15 @@ module.exports = {
           600: '#BE2623',
           700: '#9F181F',
           800: '#800F1E',
-          900: '#6A091E'  
+          900: '#6A091E'
         }
-      },
-    },
+      }
+    }
   },
   variants: {
-    extend: {},
+    extend: {}
   },
   plugins: [
-    require('@tailwindcss/forms'),
-  ],
+    require('@tailwindcss/forms')
+  ]
 }

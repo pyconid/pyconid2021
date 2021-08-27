@@ -50,35 +50,40 @@
             </button>
           </div>
           <div class="flex-shrink-0 flex items-center">
-            <img class="hidden lg:block h-12 w-auto" src="~/assets/image/logo.png" alt="PyCon">
+            <NuxtLink to="/">
+              <img class="hidden lg:block h-12 w-auto" src="~/assets/image/logo.png" alt="PyCon">
+            </NuxtLink>
           </div>
           <div class="hidden md:ml-6 md:flex md:space-x-8">
-            <!-- Current: "border-primary-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-            <a href="#" class="border-primary-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-              Home
-            </a>
-            <a href="#" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-              Sponsorship
-            </a>
-            <a href="#" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-              Ticket
-            </a>
-            <a href="#" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-              Call for Paper
-            </a>
+            <NuxtLink to="/sponsorship" :class="getActiveClass('sponsorship')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <span class="h-full w-full flex items-center">Sponsorship</span>
+            </NuxtLink>
+            <NuxtLink to="/ticket" :class="getActiveClass('ticket')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <span class="h-full w-full flex items-center">Ticket</span>
+            </NuxtLink>
+            <NuxtLink to="/call-for-paper" :class="getActiveClass('call-for-paper')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <span class="h-full w-full flex items-center">Call For Paper</span>
+            </NuxtLink>
           </div>
         </div>
         <div class="flex flex-row items-center ml-auto mr-auto lg:hidden">
-          <img class="h-12 w-auto" src="~/assets/image/logo.png" alt="PyCon">
+          <NuxtLink to="/">
+            <img class="h-12 w-auto" src="~/assets/image/logo.png" alt="PyCon" @click="() => setActiveMenu('/')">
+          </NuxtLink>
         </div>
       </div>
 
       <div id="mobile-menu" class="md:hidden" :class="{'hidden': !showMenu}">
         <div class="pt-2 pb-3 space-y-1">
-          <!-- Current: "bg-primary-50 border-primary-500 text-primary-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
-          <a href="#" class="bg-primary-50 border-primary-500 text-primary-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">Sponsorship</a>
-          <a href="#" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">Ticket</a>
-          <a href="#" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">Call for Paper</a>
+          <NuxtLink to="/sponsorship" :class="getActiveMobileClass('sponsorship')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            <span class="h-full w-full flex items-center py-2">Sponsorship</span>
+          </NuxtLink>
+          <NuxtLink to="/ticket" :class="getActiveMobileClass('ticket')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            <span class="h-full w-full flex items-center py-2">Ticket</span>
+          </NuxtLink>
+          <NuxtLink to="/call-for-paper" :class="getActiveMobileClass('call-for-paper')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            <span class="h-full w-full flex items-center py-2">Call for Paper</span>
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -89,12 +94,24 @@
 export default {
   data () {
     return {
-      showMenu: false
+      showMenu: false,
+      activeMenu: '/'
+    }
+  },
+  computed: {
+    getRoute () {
+      return this.$route.name
     }
   },
   methods: {
     toggleNavbar () {
       this.showMenu = !this.showMenu
+    },
+    getActiveClass (menu) {
+      return this.getRoute === menu ? 'border-primary-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 '
+    },
+    getActiveMobileClass (menu) {
+      return this.getRoute === menu ? 'bg-primary-50 border-primary-500 text-primary-700' : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
     }
   }
 }
