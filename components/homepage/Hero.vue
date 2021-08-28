@@ -27,20 +27,43 @@
     </div>
 
     <div class="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
-      <main class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
+      <main class="mt-2 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
         <div class="lg:grid lg:grid-cols-12 lg:gap-8">
           <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
             <h1>
-              <span class="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">Coming soon</span>
+              <span class="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">PyCon ID 2021</span>
               <span class="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
-                <span class="block text-gray-900">PyCon ID 2021</span>
-                <span class="block text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-info-600">Python Everywhere</span>
+                <span class="pb-1 block text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-info-600">Python Everywhere</span>
               </span>
             </h1>
-            <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-              PyCon Indonesia is a conference where Python users gather to learn and meet other members of the community. This year, we proudly announced "Python Everywhere" as our theme.
-            </p>
-            <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
+            <div class="border-gray-200">
+              <dl>
+                <div class="py-3 flex gap-x-3">
+                  <dt class="text-sm font-medium text-gray-500 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <!-- Date -->
+                  </dt>
+                  <dd class="text-lg text-gray-900 col-span-2 sm:col-span-3">
+                    Saturday to Sunday, <br>4 - 5 Desember 2021
+                  </dd>
+                </div>
+                <div class="py-3 flex gap-x-3">
+                  <dt class="text-sm font-medium text-gray-500 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <!-- Location -->
+                  </dt>
+                  <dd class="text-lg text-gray-900 col-span-2 sm:col-span-3">
+                    Online
+                  </dd>
+                </div>
+              </dl>
+            </div>
+            <div class="mt-4 lg:mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
               <p class="text-base font-medium text-gray-900">
                 Sign up to get latest news about PyCon ID 2021.
               </p>
