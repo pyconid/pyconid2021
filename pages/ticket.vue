@@ -1,11 +1,13 @@
 <template>
-  <div />
+  <UnderConstruction />
 </template>
 
 <script>
-export default {
-  setup () {
+import UnderConstruction from '@/components/global/UnderConstruction.vue'
 
+export default {
+  components: {
+    UnderConstruction
   }
 }
 </script>
