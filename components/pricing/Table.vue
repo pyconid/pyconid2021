@@ -5,23 +5,8 @@
       <!-- xs to lg -->
       <div class="max-w-2xl mx-auto space-y-16 lg:hidden">
         <section v-for="(tier, tierIdx) in tiers" :key="tier.name">
-          <div class="px-4 mb-8">
-            <h2 class="text-lg leading-6 font-medium text-gray-900">
-              {{ tier.name }}
-            </h2>
-            <p class="mt-4">
-              <span class="text-4xl font-extrabold text-gray-900">${{ tier.price }}</span>
-              {{ ' ' }}
-              <span class="text-base font-medium text-gray-500">/mo</span>
-            </p>
-            <p class="mt-4 text-sm text-gray-500">
-              {{ tier.description }}
-            </p>
-            <a :href="tier.href" class="mt-6 block border border-gray-800 rounded-md bg-gray-800 w-full py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">Buy {{ tier.name }}</a>
-          </div>
-
           <table v-for="section in sections" :key="section.name" class="w-full">
-            <caption class="bg-gray-50 border-t border-gray-200 py-3 px-4 text-sm font-medium text-gray-900 text-left">
+            <caption v-if="section.name" class="bg-gray-50 border-t border-gray-200 py-3 px-4 text-sm font-medium text-gray-900 text-left">
               {{
                 section.name
               }}
