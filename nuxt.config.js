@@ -8,11 +8,64 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Python Conference Indonesia 2021',
+    description: 'PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      // Facebook & OG
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website'
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://your-hp.github.io/pyconid2021/'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Python Conference Indonesia 2021'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community.'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://raw.githubusercontent.com/pyconid/pyconid2021/gh-pages/_nuxt/img/logo.6509b7d.png'
+      },
+      // Twitter
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        hid: 'twitter:url',
+        name: 'twitter:url',
+        content: 'https://your-hp.github.io/pyconid2021/'
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Python Conference Indonesia 2021'
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: 'PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community.'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://raw.githubusercontent.com/pyconid/pyconid2021/gh-pages/_nuxt/img/logo.6509b7d.png'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -47,7 +100,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
+    '@nuxtjs/pwa'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
