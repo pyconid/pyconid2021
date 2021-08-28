@@ -2,8 +2,8 @@
   <nav class="bg-white shadow">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex lg:justify-between h-16">
-        <div class="flex">
-          <div class="-ml-2 mr-2 flex items-center md:hidden">
+        <div class="static flex">
+          <div class="-ml-2 mr-2 absolute top-3 flex items-center md:hidden">
             <!-- Mobile menu button -->
             <button
               type="button"
@@ -21,7 +21,8 @@
               Menu open: "hidden", Menu closed: "block"
             -->
               <svg
-                class="block h-6 w-6"
+                :class="showMenu == true ? 'hidden' : 'block'"
+                class="h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -38,7 +39,8 @@
               Menu open: "block", Menu closed: "hidden"
             -->
               <svg
-                class="hidden h-6 w-6"
+                :class="showMenu == true ? 'block' : 'hidden'"
+                class="block h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -55,6 +57,9 @@
             </NuxtLink>
           </div>
           <div class="hidden md:ml-6 md:flex md:space-x-8">
+            <NuxtLink to="/" :class="getActiveClass('index')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <span class="h-full w-full flex items-center">Home</span>
+            </NuxtLink>
             <NuxtLink to="/sponsorship" :class="getActiveClass('sponsorship')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
               <span class="h-full w-full flex items-center">Sponsorship</span>
             </NuxtLink>
@@ -75,6 +80,9 @@
 
       <div id="mobile-menu" class="md:hidden" :class="{'hidden': !showMenu}">
         <div class="pt-2 pb-3 space-y-1">
+          <NuxtLink to="/" :class="getActiveMobileClass('index')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            <span class="h-full w-full flex items-center py-2">Home</span>
+          </NuxtLink>
           <NuxtLink to="/sponsorship" :class="getActiveMobileClass('sponsorship')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             <span class="h-full w-full flex items-center py-2">Sponsorship</span>
           </NuxtLink>
