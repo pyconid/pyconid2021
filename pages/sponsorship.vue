@@ -1,13 +1,21 @@
 <template>
-  <UnderConstruction />
+  <div>
+    <Header />
+    <Table />
+    <Prospect />
+  </div>
 </template>
 
 <script>
-import UnderConstruction from '@/components/global/UnderConstruction.vue'
+import Header from '@/components/pricing/Header.vue'
+import Table from '@/components/pricing/Table.vue'
+import Prospect from '@/components/pricing/Prospect.vue'
 
 export default {
   components: {
-    UnderConstruction
+    Header,
+    Table,
+    Prospect
   }
 }
 </script>
