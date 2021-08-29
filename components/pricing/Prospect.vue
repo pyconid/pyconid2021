@@ -1,15 +1,15 @@
 <template>
-  <div class="bg-gray-800">
+  <div class="bg-primary-500">
     <div class="mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:flex lg:justify-between">
       <div class="w-full">
         <h2 class="text-4xl text-center font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
           Prospect &amp; Benefit
         </h2>
-        <p class="mt-5 text-xl text-center text-gray-400">
+        <p class="mt-5 text-xl text-center text-gray-200">
           Sponsor Prospect &amp; Benefit
         </p>
         <div class="mx-8 my-4 lg:mx-24 lg:my-12">
-          <p v-for="content in contents" :key="content.title" class="text-justify text-gray-300 text-md my-6">
+          <p v-for="content in contents" :key="content.title" class="text-justify text-gray-200 text-md my-6">
             <span class="font-semibold text-white">{{ content.title }}</span> {{ content.subtitle }}
           </p>
         </div>
