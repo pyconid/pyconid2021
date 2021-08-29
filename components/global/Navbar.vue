@@ -73,7 +73,7 @@
         </div>
         <div class="flex flex-row items-center ml-auto mr-auto lg:hidden">
           <NuxtLink to="/">
-            <img class="h-12 w-auto" src="~/assets/image/logo.png" alt="PyCon" @click="() => setActiveMenu('/')">
+            <img class="h-12 w-auto" src="~/assets/image/logo.png" alt="PyCon">
           </NuxtLink>
         </div>
       </div>
