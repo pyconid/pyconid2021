@@ -150,9 +150,9 @@ export default {
   computed: {
     tiers () {
       return [
-        { name: 'Platinum', href: 'mailto: farahclara@python.or.id?subject=Apply%20Platinum%20Sponsorhip%20PYCON%202021', price: '50.000.000', description: '' },
-        { name: 'Gold', href: 'mailto: farahclara@python.or.id?subject=Apply%20Gold%20Sponsorhip%20PYCON%202021', price: '30.000.000', description: '' },
-        { name: 'Silver', href: 'mailto: farahclara@python.or.id?subject=Apply%20Silver%20Sponsorhip%20PYCON%202021', price: '15.000.000', description: '' }
+        { name: 'Platinum', href: 'mailto:pycon@python.or.id?subject=Apply%20Platinum%20Sponsorhip%20PYCON%202021', price: '50.000.000', description: '' },
+        { name: 'Gold', href: 'mailto:pycon@python.or.id?subject=Apply%20Gold%20Sponsorhip%20PYCON%202021', price: '30.000.000', description: '' },
+        { name: 'Silver', href: 'mailto:pycon@python.or.id?subject=Apply%20Silver%20Sponsorhip%20PYCON%202021', price: '15.000.000', description: '' }
       ]
     },
     sections () {

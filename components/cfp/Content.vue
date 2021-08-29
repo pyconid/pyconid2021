@@ -46,25 +46,25 @@
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
                 <div class="hidden lg:block masonry before:box-inherit after:box-inherit object-cover object-center">
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8488.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8488.jpg">
                   </div>
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8541.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8541.jpg">
                   </div>
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8555.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8555.jpg">
                   </div>
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8567.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8567.jpg">
                   </div>
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8676.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8676.jpg">
                   </div>
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8607.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8607.jpg">
                   </div>
                 </div>
-                <img class="block lg:hidden rounded-lg shadow-lg object-cover object-center" src="~/assets/image/IMG_8676.jpg">
+                <img class="block lg:hidden rounded-lg shadow-lg object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8676.jpg">
               </div>
             </figure>
           </div>
@@ -98,7 +98,7 @@
             <p>While there’s not a strict criteria on the proposal content, there are a few guidelines to be followed while submitting a proposal and you must follow the Code of Conduct.</p>
             <p>The proposal should be concise and relevant to the event. Please be sure to mention necessary versions and environment setup configurations, where applicable.</p>
             <p>It’s preferable if your associated organization’s name/branding is mentioned only at the beginning of the proposal, and the rest of the content is unbiased and generic. Moreover, any platform, technology, browser, and OS biases should also be avoided. Selection status of proposals will be notified via email.</p>
-            <p>Feel free to submit multiple proposals. For any questions, please write to <a target="_blank" href="mailto:conf@python.or.id">conf@python.or.id</a> Last, but not the least, we accept talks in Bahasa Indonesia and English. After all, it’s PyCon Indonesia!</p>
+            <p>Feel free to submit multiple proposals. For any questions, please write to <a target="_blank" href="mailto:pycon@python.or.id">pycon@python.or.id</a> Last, but not the least, we accept talks in Bahasa Indonesia and English. After all, it’s PyCon Indonesia!</p>
             <h3>Join Our Stage!</h3>
             <p>Register yourself at <a href="https://www.papercall.io/pyconid2021" target="_blank">https://www.papercall.io/pyconid2021</a></p>
           </div>
