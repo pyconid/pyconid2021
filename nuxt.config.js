@@ -5,6 +5,11 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  // if you hosted your repository not as a base / main repository, else comment it
+  router: {
+    base: '/pyconid2021/'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Python Conference Indonesia 2021',
