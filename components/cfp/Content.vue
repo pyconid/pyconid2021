@@ -4,11 +4,8 @@
       <div class="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
       <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
         <div>
-          <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">
-            Case Study
-          </h2>
           <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Meet Whitney
+            Call For Paper
           </h3>
         </div>
       </div>
@@ -46,7 +43,28 @@
           <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
             <figure>
               <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-                <img class="rounded-lg shadow-lg object-cover object-center" src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80" alt="Whitney leaning against a railing on a downtown street" width="1184" height="1376">
+                <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+                <div class="hidden lg:block masonry before:box-inherit after:box-inherit object-cover object-center">
+                  <div class="break-inside">
+                    <img class="object-cover object-center" src="~/assets/image/IMG_8488.jpg">
+                  </div>
+                  <div class="break-inside">
+                    <img class="object-cover object-center" src="~/assets/image/IMG_8541.jpg">
+                  </div>
+                  <div class="break-inside">
+                    <img class="object-cover object-center" src="~/assets/image/IMG_8555.jpg">
+                  </div>
+                  <div class="break-inside">
+                    <img class="object-cover object-center" src="~/assets/image/IMG_8567.jpg">
+                  </div>
+                  <div class="break-inside">
+                    <img class="object-cover object-center" src="~/assets/image/IMG_8676.jpg">
+                  </div>
+                  <div class="break-inside">
+                    <img class="object-cover object-center" src="~/assets/image/IMG_8607.jpg">
+                  </div>
+                </div>
+                <img class="block lg:hidden rounded-lg shadow-lg object-cover object-center" src="~/assets/image/IMG_8676.jpg">
               </div>
             </figure>
           </div>
@@ -54,22 +72,35 @@
         <div class="mt-8 lg:mt-0">
           <div class="text-base max-w-prose mx-auto lg:max-w-none">
             <p class="text-lg text-gray-500">
-              Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
+              PyCon Indonesia is pleased to announce that we are going to open the Call For Proposals soon.
             </p>
           </div>
           <div class="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-            <p>Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
-            <p>Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.</p>
-            <p>Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.</p>
+            <p>We are calling out for speakers who had like to share their Python knowledge which would intrigue the Python community at this event!</p>
+            <p>We’re looking for proposals on every aspect of Python: basic, intermediate or advanced levels. We’re interested to see all content that’s interesting and engaging to the Python community, whether it be introduction, tutorials, case studies, learning-teaching-community, interactive sessions, or even how you and your organization work with Python.</p>
+            <p>So if you have something that the community might be interested in, let us know and, don’t worry if you’re a seasoned engineer or a novice with no experience of presenting at a conference before; what matters is the content that you’ll be sharing with the community.</p>
+            <p>Your proposal is as simple as answering these questions:</p>
             <ul role="list">
-              <li>Quis elit egestas venenatis mattis dignissim.</li>
-              <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-              <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+              <li>Title of your talks</li>
+              <li>Elevator Pitch</li>
+              <li>Audience Level (Beginner, Intermediate, Advanced)</li>
+              <li>Description of your talks</li>
+              <li>About you</li>
             </ul>
-            <p>Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
-            <h3>How we helped</h3>
-            <p>Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.</p>
-            <p>Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
+            <h3>Proposal Types</h3>
+            <ul role="list">
+              <li><span class="font-semibold">Talks</span> are limited to a maximum of **40 minutes**, and may preferably be accompanied with helping material (presentation, image, document, etc). The time slots include time for questions from the audience, so please plan your talk accordingly.</li>
+              <li><span class="font-semibold">Lightning Talks</span> are limited to a maximum of **5 minutes**. The lightning talks session will not have Q&A time slot on stage.</li>
+              <li>Audience Level (Beginner, Intermediate, Advanced)</li>
+            </ul>
+            <p>Talks could be on a variety of topics (for further details and inspiration, check out the next section).</p>
+            <h3>Guidelines for Proposal Submission</h3>
+            <p>While there’s not a strict criteria on the proposal content, there are a few guidelines to be followed while submitting a proposal and you must follow the Code of Conduct.</p>
+            <p>The proposal should be concise and relevant to the event. Please be sure to mention necessary versions and environment setup configurations, where applicable.</p>
+            <p>It’s preferable if your associated organization’s name/branding is mentioned only at the beginning of the proposal, and the rest of the content is unbiased and generic. Moreover, any platform, technology, browser, and OS biases should also be avoided. Selection status of proposals will be notified via email.</p>
+            <p>Feel free to submit multiple proposals. For any questions, please write to <a target="_blank" href="mailto:conf@python.or.id">conf@python.or.id</a> Last, but not the least, we accept talks in Bahasa Indonesia and English. After all, it’s PyCon Indonesia!</p>
+            <h3>Join Our Stage!</h3>
+            <p>Register yourself at <a href="https://www.papercall.io/pyconid2021" target="_blank">https://www.papercall.io/pyconid2021</a></p>
           </div>
         </div>
       </div>
@@ -80,3 +111,13 @@
 <script>
 export default {}
 </script>
+
+<style scoped>
+.masonry {
+  column-count: 2;
+  column-gap: 0em;
+}
+.break-inside {
+  break-inside: avoid;
+}
+</style>
