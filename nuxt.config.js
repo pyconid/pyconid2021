@@ -6,9 +6,9 @@ export default {
   target: 'static',
 
   // if you hosted your repository not as a base / main repository, else comment it
-  // router: {
-  //   base: '/pyconid2021/'
-  // },
+  router: {
+    base: '/pyconid2021/'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
