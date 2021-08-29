@@ -1,13 +1,13 @@
 <template>
-  <UnderConstruction />
+  <Content />
 </template>
 
 <script>
-import UnderConstruction from '@/components/global/UnderConstruction.vue'
+import Content from '@/components/ticket/Content.vue'
 
 export default {
   components: {
-    UnderConstruction
+    Content
   }
 }
 </script>

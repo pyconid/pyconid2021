@@ -57,7 +57,7 @@
           </table>
 
           <div :class="[tierIdx < tiers.length - 1 ? 'py-5 border-b' : 'pt-5', 'border-t border-gray-200 px-4']">
-            <a :href="tier.href" class="block w-full bg-primary-500 border border-primary-500 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-primary-600">Buy {{ tier.name }}</a>
+            <a :href="tier.href" class="block w-full bg-info-800 border border-info-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-info-900">Buy {{ tier.name }}</a>
           </div>
         </section>
       </div>
@@ -125,12 +125,12 @@
               <td v-for="tier in tiers" :key="tier.name" class="h-full py-8 px-6 align-top">
                 <div class="relative h-full table">
                   <p>
-                    <span class="text-3xl font-extrabold text-primary-500">{{ tier.price }} IDR</span>
+                    <span class="text-3xl font-extrabold text-gray-800">{{ tier.price }} IDR</span>
                   </p>
                   <p class="mt-4 mb-16 text-sm text-gray-500">
                     {{ tier.description }}
                   </p>
-                  <a :href="tier.href" class="absolute bottom-0 flex-grow block w-full bg-primary-500 border border-primary-500 rounded-md 5 py-2 text-sm font-semibold text-white text-center hover:bg-primary-600">Apply {{ tier.name }}</a>
+                  <a :href="tier.href" class="absolute bottom-0 flex-grow block w-full bg-gray-800 border border-gray-800 rounded-md 5 py-2 text-sm font-semibold text-white text-center hover:bg-gray-900">Apply {{ tier.name }}</a>
                 </div>
               </td>
             </tr>
