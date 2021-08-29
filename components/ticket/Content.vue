@@ -4,7 +4,7 @@
       <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
         <div>
           <h3 class="mt-2 text-3xl text-justify font-bold text-gray-500 sm:text-2xl">
-            PyCon Indonesia 2020 tickets are sold in the following types. Tickets are required to participate in the online conference.
+            PyCon Indonesia 2021 tickets are sold in the following types. Tickets are required to participate in the online conference.
           </h3>
         </div>
       </div>
@@ -54,7 +54,7 @@
               <li>Merchandise (Rp. 150.000)</li>
               <li>Patron (Rp. 1.000.000)</li>
             </ul>
-            <p>For those who buy PyCon ID 2020 Exclusive Merchandise, delivery of merchandise will be sent using a courier with the Cash on Delivery (COD) system. So you have to pay your shipping fee when your merchandise package has come to your address. Our merchandise will be produced at Surabaya City, East Java. You can choose to send your merchandise from <span class="font-bold text-gray-800">Surabaya</span> or one of these cities: <span class="font-bold text-gray-800">Bandung</span>, <span class="font-bold text-gray-800">Yogyakarta</span>, <span class="font-bold text-gray-800">Bogor</span>, and <span class="font-bold text-gray-800">Makassar</span>. Choosing origin cities other than Surabaya will cost more days on the delivery process. For shipping fee please check at <a href="https://www.jet.co.id/rates" target="_blank" class="font-bold text-gray-900">J&amp;T</a> Express, the merchandise package's weight is approximately 1 kilogram. For international participants or overseas shipping addresses, you can still get your merchandise but you have to pay for your shipping first. Please contact pycon@python.or.id to discuss your shipping fee. We will use <a href="https://www.posindonesia.co.id/en/" target="_blank" class="font-bold text-gray-900 no-underline">POS Indonesia</a> for international shipment.</p>
+            <p>For those who buy PyCon ID 2021 Exclusive Merchandise, delivery of merchandise will be sent using a courier with the Cash on Delivery (COD) system. So you have to pay your shipping fee when your merchandise package has come to your address. Our merchandise will be produced at Surabaya City, East Java. You can choose to send your merchandise from <span class="font-bold text-gray-800">Surabaya</span> or one of these cities: <span class="font-bold text-gray-800">Bandung</span>, <span class="font-bold text-gray-800">Yogyakarta</span>, <span class="font-bold text-gray-800">Bogor</span>, and <span class="font-bold text-gray-800">Makassar</span>. Choosing origin cities other than Surabaya will cost more days on the delivery process. For shipping fee please check at <a href="https://www.jet.co.id/rates" target="_blank" class="font-bold text-gray-900">J&amp;T</a> Express, the merchandise package's weight is approximately 1 kilogram. For international participants or overseas shipping addresses, you can still get your merchandise but you have to pay for your shipping first. Please contact pycon@python.or.id to discuss your shipping fee. We will use <a href="https://www.posindonesia.co.id/en/" target="_blank" class="font-bold text-gray-900 no-underline">POS Indonesia</a> for international shipment.</p>
           </div>
         </div>
       </div>
@@ -89,8 +89,8 @@ export default {
     tickets () {
       return [
         { type: 'Regular Ticket', description: 'This ticket includes event access for two days. We will send the link for the event to your registered email address one week before the event.', image: 'Regular.jpg' },
-        { type: 'Merchandise Ticket', description: 'This ticket includes event access for two days and PyCon ID 2020 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.', image: 'Merchandise.jpg' },
-        { type: 'Patron Ticket', description: 'Be a Patron by supporting this event. Your name will be listed on Patron Section. This ticket includes event access for two days and PyCon ID 2020 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.', image: 'Patron.jpg' }
+        { type: 'Merchandise Ticket', description: 'This ticket includes event access for two days and PyCon ID 2021 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.', image: 'Merchandise.jpg' },
+        { type: 'Patron Ticket', description: 'Be a Patron by supporting this event. Your name will be listed on Patron Section. This ticket includes event access for two days and PyCon ID 2021 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.', image: 'Patron.jpg' }
       ]
     }
   }
