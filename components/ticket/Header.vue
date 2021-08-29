@@ -6,7 +6,7 @@
           Ticket
         </h2>
         <p class="mt-5 text-xl text-center text-gray-200">
-          PyCon Indonesia 2020 tickets are sold in the following types
+          PyCon Indonesia 2021 tickets are sold in the following types
         </p>
       </div>
     </div>
