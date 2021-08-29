@@ -42,7 +42,7 @@
           <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
             <figure>
               <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-                <img class="rounded-lg shadow-lg object-cover object-center" src="~/assets/image/ticket-placeholder.jpg" alt="Ticket Placeholder">
+                <img class="rounded-lg shadow-lg object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/ticket-placeholder.jpg" alt="Ticket Placeholder">
               </div>
             </figure>
           </div>
@@ -64,7 +64,7 @@
             {{ ticket.type }}
           </h3>
           <no-ssr>
-            <img :src="require(`~/assets/image/tickets/${ticket.image}`)" class="my-4">
+            <img :src="`https://ik.imagekit.io/9rpt33mvmla/tickets/${ticket.image}`" class="my-4">
           </no-ssr>
           <p class="text-gray-500">
             {{ ticket.description }}

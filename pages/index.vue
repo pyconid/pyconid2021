@@ -5,7 +5,7 @@
       <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div class="lg:flex lg:justify-between lg:gap-x-10">
           <div class="pb-3 lg:pb-0 max-w-xl">
-            <img class="w-full h-auto rounded-lg" src="~/assets/image/pyconid.jpg" alt="pycon id">
+            <img class="w-full h-auto rounded-lg" src="https://ik.imagekit.io/9rpt33mvmla/pyconid.jpg" alt="pycon id">
           </div>
           <div class="max-w-2xl">
             <h2 class="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl lg:text-left">

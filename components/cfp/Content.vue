@@ -46,25 +46,25 @@
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
                 <div class="hidden lg:block masonry before:box-inherit after:box-inherit object-cover object-center">
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8488.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8488.jpg">
                   </div>
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8541.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8541.jpg">
                   </div>
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8555.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8555.jpg">
                   </div>
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8567.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8567.jpg">
                   </div>
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8676.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8676.jpg">
                   </div>
                   <div class="break-inside">
-                    <img class="object-cover object-center" src="~/assets/image/IMG_8607.jpg">
+                    <img class="object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8607.jpg">
                   </div>
                 </div>
-                <img class="block lg:hidden rounded-lg shadow-lg object-cover object-center" src="~/assets/image/IMG_8676.jpg">
+                <img class="block lg:hidden rounded-lg shadow-lg object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/IMG_8676.jpg">
               </div>
             </figure>
           </div>
