@@ -73,7 +73,7 @@ export default {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://raw.githubusercontent.com/pyconid/pyconid2021/gh-pages/favicon.ico' }
     ]
   },
 
