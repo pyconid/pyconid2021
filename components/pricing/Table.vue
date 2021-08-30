@@ -56,6 +56,19 @@
             </tbody>
           </table>
 
+          <table class="w-full">
+            <tbody class="divide-y divide-gray-200">
+              <tr>
+                <th class="py-5 px-4 text-sm font-medium text-gray-900  text-left" scope="row">
+                  Pricing
+                </th>
+                <td class="py-5 pr-4">
+                  <span class="block text-sm text-3xl font-extrabold text-gray-800 text-right">{{ tier.price }} IDR</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
           <div :class="[tierIdx < tiers.length - 1 ? 'py-5 border-b' : 'pt-5', 'border-t border-gray-200 px-4']">
             <a :href="tier.href" class="block w-full bg-info-800 border border-info-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-info-900">Buy {{ tier.name }}</a>
           </div>
