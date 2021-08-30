@@ -12,10 +12,7 @@
               What is <span class="text-primary-500">PyCon ID</span>?
             </h2>
             <p class="mt-3 lg:mt-5 text-base text-gray-500 text-justify">
-              PyCon Indonesia is an annual conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community. We hope that everyone joining PyCon ID will not only learn new and exciting things, but also meet new friends and strengthen the connection with the community, and thus the community itself.
-            </p>
-            <p class="mt-3 lg:mt-5 text-base text-gray-500 text-justify">
-              This year, we chose “Python Everywhere“ as our theme. The PyCon ID 2021 Organizer is consist of professionals, entrepreneurs, hobbyists and even students around several cities in Indonesia with wide diversity. We are continuing to work hard on welcoming all of you, local or overseas speakers, and making a conference that will allow everyone to have a great time and unlock new possibilities through Python.
+              Python is everywhere. It's in your favorite apps, it's used in companies worldwide, it even runs governments. Python has massive impact, not only in computing world, but the entire world. PyCon ID returns with renewed spirit to promote Python Everywhere, this is our theme for PyCon ID in 2021. We invite everyone from all walks of life to share their experience with Python. Join us to promote Python Everywhere.
             </p>
           </div>
         </div>
