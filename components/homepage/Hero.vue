@@ -67,12 +67,43 @@
               <p class="text-base font-medium text-gray-900">
                 Sign up to get latest news about PyCon ID 2021.
               </p>
-              <form action="#" method="POST" class="mt-3 sm:flex">
-                <label for="email" class="sr-only">Email</label>
-                <input id="email" type="text" name="email" class="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-info-500 focus:border-info-500 sm:flex-1 border-gray-300" placeholder="Enter your email">
-                <button type="submit" class="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-info-800 shadow-sm hover:bg-info-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
+              <form action="https://pycon.us5.list-manage.com/subscribe/post" method="POST" class="mt-3 sm:flex">
+                <input type="hidden" name="u" value="19413263df5d1e3d70cf80319">
+                <input type="hidden" name="id" value="ddec8b1350">
+
+                <!-- people should not fill these in and expect good things -->
+                <div class="hidden field-shift" aria-label="Please leave the following three fields empty">
+                  <label for="b_name">Name: </label>
+                  <input
+                    id="b_name"
+                    type="text"
+                    name="b_name"
+                    tabindex="-1"
+                    value=""
+                    placeholder="Freddie"
+                  >
+
+                  <label for="b_email">Email: </label>
+                  <input
+                    id="b_email"
+                    type="email"
+                    name="b_email"
+                    tabindex="-1"
+                    value=""
+                    placeholder="youremail@gmail.com"
+                  >
+
+                  <label for="b_comment">Comment: </label>
+                  <textarea id="b_comment" name="b_comment" tabindex="-1" placeholder="Please comment" />
+                </div>
+
+                <label id="mergeRow-0" for="MERGE0" class="sr-only">Email</label>
+                <input id="MERGE0" type="email" name="MERGE0" class="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-info-500 focus:border-info-500 sm:flex-1 border-gray-300" placeholder="Enter your email">
+                <button type="submit" class="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-info-800 shadow-sm hover:bg-info-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto" value="Subscribe">
                   Sign up
                 </button>
+                <input type="hidden" name="ht" value="cf31db9124706d51ae8f16a60ef957a82520d600:MTYzMDMzMjg1Mi40NzA1">
+                <input type="hidden" name="mc_signupsource" value="hosted">
               </form>
             </div>
           </div>
