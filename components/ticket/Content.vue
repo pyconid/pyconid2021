@@ -42,7 +42,7 @@
           <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
             <figure>
               <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-                <img class="rounded-lg shadow-lg object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/ticket-placeholder.jpg" alt="Ticket Placeholder">
+                <img class="rounded-lg shadow-lg object-cover object-center" src="~/assets/image/Merch-1920.jpg" alt="Ticket Placeholder">
               </div>
             </figure>
           </div>
