@@ -39,7 +39,7 @@
             </defs>
             <rect width="404" height="384" fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)" />
           </svg>
-          <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
+          <div class="hidden md:block relative text-base mx-auto max-w-prose lg:max-w-none">
             <figure>
               <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
                 <img class="rounded-lg shadow-lg object-cover object-center" src="~/assets/image/Merch-1920.jpg" alt="Ticket Placeholder">
@@ -57,8 +57,15 @@
             <p>For those who buy PyCon ID 2021 Exclusive Merchandise, delivery of merchandise will be sent using a courier with the Cash on Delivery (COD) system. So you have to pay your shipping fee when your merchandise package has come to your address. Our merchandise will be produced at Surabaya City, East Java. You can choose to send your merchandise from <span class="font-bold text-gray-800">Surabaya</span> or one of these cities: <span class="font-bold text-gray-800">Bandung</span>, <span class="font-bold text-gray-800">Yogyakarta</span>, <span class="font-bold text-gray-800">Bogor</span>, and <span class="font-bold text-gray-800">Makassar</span>. Choosing origin cities other than Surabaya will cost more days on the delivery process. For shipping fee please check at <a href="https://www.jet.co.id/rates" target="_blank" class="font-bold text-gray-900">J&amp;T</a> Express, the merchandise package's weight is approximately 1 kilogram. For international participants or overseas shipping addresses, you can still get your merchandise but you have to pay for your shipping first. Please contact pycon@python.or.id to discuss your shipping fee. We will use <a href="https://www.posindonesia.co.id/en/" target="_blank" class="font-bold text-gray-900 no-underline">POS Indonesia</a> for international shipment.</p>
           </div>
         </div>
+        <div class="relative mt-4 text-base mx-auto max-w-prose lg:max-w-none lg:hidden">
+          <figure>
+            <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
+              <img class="rounded-lg shadow-lg object-cover object-center" src="~/assets/image/Merch-1920.jpg" alt="Ticket Placeholder">
+            </div>
+          </figure>
+        </div>
       </div>
-      <div class="w-full my-8 lg:px-0 sm:px-16">
+      <div class="w-full my-8 px-2 md:px-0">
         <div v-for="ticket in tickets" :key="ticket.type" class="my-4">
           <h3 class="text-2xl text-gray-500 font-semibold">
             {{ ticket.type }}
