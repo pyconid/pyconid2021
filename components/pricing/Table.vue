@@ -2,6 +2,19 @@
 <template>
   <div class="bg-white">
     <div class="max-w-7xl mx-auto bg-white py-16 sm:py-24 sm:px-6 lg:px-8">
+      <!-- sponsorship plans -->
+      <div class="flex">
+        <a href="https://drive.google.com/file/d/1eC7gjhevOz66uUrLQD5-V2KN0j30px0b/view?usp=drivesdk" target="_blank" class="mb-4 bg-gray-800 border border-gray-800 rounded-md py-2 px-4 text-sm font-semibold text-white text-center hover:bg-gray-900 w-full mx-4 md:w-auto sm:mx-0">
+          <div class="flex flex-row items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
+            <span class="ml-2">
+              Download Sponsorhip Plans
+            </span>
+          </div>
+        </a>
+      </div>
       <!-- xs to lg -->
       <div class="max-w-2xl mx-auto space-y-16 lg:hidden">
         <section v-for="(tier, tierIdx) in tiers" :key="tier.name">

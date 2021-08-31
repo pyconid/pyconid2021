@@ -28,7 +28,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://your-hp.github.io/pyconid2021/'
+        content: 'https://pycon.id/'
       },
       {
         hid: 'og:title',
@@ -43,7 +43,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://raw.githubusercontent.com/pyconid/pyconid2021/gh-pages/_nuxt/img/logo.6509b7d.png'
+        content: 'https://pycon.id/_nuxt/img/logo.6509b7d.png'
       },
       // Twitter
       {
@@ -54,7 +54,7 @@ export default {
       {
         hid: 'twitter:url',
         name: 'twitter:url',
-        content: 'https://your-hp.github.io/pyconid2021/'
+        content: 'https://pycon.id/'
       },
       {
         hid: 'twitter:title',
@@ -69,11 +69,11 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://raw.githubusercontent.com/pyconid/pyconid2021/gh-pages/_nuxt/img/logo.6509b7d.png'
+        content: 'https://pycon.id/_nuxt/img/logo.6509b7d.png'
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'https://raw.githubusercontent.com/pyconid/pyconid2021/gh-pages/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://pycon.id/favicon.ico' }
     ]
   },
 
