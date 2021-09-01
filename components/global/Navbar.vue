@@ -53,7 +53,7 @@
           </div>
           <div class="flex-shrink-0 flex items-center">
             <NuxtLink to="/">
-              <img class="hidden lg:block h-12 w-auto" src="~/assets/image/logo.png" alt="PyCon">
+              <img class="hidden lg:block h-12 w-auto" src="https://ik.imagekit.io/9rpt33mvmla/logo/Logo%20Bright-01.png" alt="PyCon">
             </NuxtLink>
           </div>
           <div class="hidden md:ml-6 md:flex md:space-x-8">
@@ -76,7 +76,7 @@
         </div>
         <div class="flex flex-row items-center ml-auto mr-auto lg:hidden">
           <NuxtLink to="/">
-            <img class="h-12 w-auto" src="~/assets/image/logo.png" alt="PyCon">
+            <img class="h-12 w-auto" src="https://ik.imagekit.io/9rpt33mvmla/logo/Logo%20Bright-01.png" alt="PyCon">
           </NuxtLink>
         </div>
       </div>

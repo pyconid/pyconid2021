@@ -7,7 +7,7 @@
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="flex flex-col xl:flex-row justify-between">
         <div class="flex-1 flex flex-col items-center xl:items-start">
-          <img class="h-20" src="~/assets/image/logo.png" alt="Python Conference">
+          <img class="h-20" src="https://ik.imagekit.io/9rpt33mvmla/logo/Logo%20Bright-01.png" alt="Python Conference">
           <p class="text-gray-500 text-base">
             A conference where Python users or people interested in Python gather to learn from each other and meet other members of the community from all around the world.
           </p>
