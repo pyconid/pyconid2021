@@ -71,7 +71,7 @@
         </div>
         <div class="mt-8 lg:mt-0">
           <div class="mt-2 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-            <p>A code of conduct is a set of rules outlining the norms, rules, and responsibilities of, and or proper practices for an individual. By attending PyCon ID 2020, you agree with the Code of Conduct.</p>
+            <p>A code of conduct is a set of rules outlining the norms, rules, and responsibilities of, and or proper practices for an individual. By attending PyCon ID 2021, you agree with the Code of Conduct.</p>
             <h3>The Short Version</h3>
             <ul role="list">
               <li>PyCon ID is a community conference intended for collaboration in the developer community.</li>
@@ -82,6 +82,9 @@
             <ul role="list">
               <li>
                 Harassment includes offensive verbal comments related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, religion, status, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+              </li>
+              <li>
+                Spamming message such as making promotion, giving rude comments, or anything else that can cause any uncomfortable feeling to other participants is also prohibited. Please introduce yourself and be kind when trying to have conversation with other participants. If you are not one of our sponsor member, make sure you have their consent before giving promotion or something like that.
               </li>
               <li>
                 Participants who are asked to stop any harassing behavior are expected to comply immediately.
