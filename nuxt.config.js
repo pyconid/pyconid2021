@@ -43,7 +43,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://ik.imagekit.io/9rpt33mvmla/logo/Bright-01.png'
+        content: 'https://ik.imagekit.io/9rpt33mvmla/logo/facebook.png'
       },
       // Twitter
       {
@@ -69,7 +69,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://ik.imagekit.io/9rpt33mvmla/logo/Bright-01.png'
+        content: 'https://ik.imagekit.io/9rpt33mvmla/logo/facebook.png'
       }
     ],
     link: [
