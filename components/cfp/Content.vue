@@ -90,7 +90,6 @@
             <h3>Proposal Types</h3>
             <ul role="list">
               <li><span class="font-semibold">Talks</span> are limited to a maximum of **40 minutes**, and may preferably be accompanied with helping material (presentation, image, document, etc). The time slots include time for questions from the audience, so please plan your talk accordingly.</li>
-              <li><span class="font-semibold">Lightning Talks</span> are limited to a maximum of **5 minutes**. The lightning talks session will not have Q&A time slot on stage.</li>
               <li>Audience Level (Beginner, Intermediate, Advanced)</li>
             </ul>
             <p>Talks could be on a variety of topics (for further details and inspiration, check out the next section).</p>
