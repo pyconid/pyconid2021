@@ -18,15 +18,26 @@
         </div>
       </div>
     </div>
+    <SNS />
   </div>
 </template>
 
 <script>
 import Hero from '@/components/homepage/Hero.vue'
+import SNS from '@/components/global/SNS.vue'
 
 export default {
   components: {
-    Hero
+    Hero,
+    SNS
+  },
+  head () {
+    return {
+      script: [
+        { hid: 'twitter', src: 'https://platform.twitter.com/widgets.js', defer: true },
+        { hid: 'instagram', src: '//www.instagram.com/embed.js', defer: true }
+      ]
+    }
   }
 }
 </script>
