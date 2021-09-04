@@ -71,7 +71,7 @@
             {{ ticket.type }}
           </h3>
           <no-ssr>
-            <img :src="`https://ik.imagekit.io/9rpt33mvmla/tickets/${ticket.image}`" class="my-4">
+            <img :src="require(`~/assets/image/${ticket.image}`)" class="my-4">
           </no-ssr>
           <p class="text-gray-500">
             {{ ticket.description }}
