@@ -75,7 +75,13 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'https://pycon.id/favicon.ico' }
-    ]
+    ],
+    script: [
+      { hid: 'stripe', src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': "{'token': 'cfecd06174fa440f88f6a1a456f50b75'}", defer: true }
+    ],
+    __dangerouslyDisableSanitizersByTagID: {
+      stripe: ['data-cf-beacon']
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
