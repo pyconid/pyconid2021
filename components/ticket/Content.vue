@@ -55,6 +55,19 @@
               <li>Patron (Rp. 1.000.000)</li>
             </ul>
             <p>For those who buy PyCon ID 2021 Exclusive Merchandise, delivery of merchandise will be sent using a courier with the Cash on Delivery (COD) system. So you have to pay your shipping fee when your merchandise package has come to your address. Our merchandise will be produced at Surabaya City, East Java. You can choose to send your merchandise from <span class="font-bold text-gray-800">Surabaya</span> or one of these cities: <span class="font-bold text-gray-800">Bandung</span>, <span class="font-bold text-gray-800">Yogyakarta</span>, <span class="font-bold text-gray-800">Bogor</span>, and <span class="font-bold text-gray-800">Makassar</span>. Choosing origin cities other than Surabaya will cost more days on the delivery process. For shipping fee please check at <a href="https://www.jet.co.id/rates" target="_blank" class="font-bold text-gray-900">J&amp;T</a> Express, the merchandise package's weight is approximately 1 kilogram. For international participants or overseas shipping addresses, you can still get your merchandise but you have to pay for your shipping first. Please contact pycon@python.or.id to discuss your shipping fee. We will use <a href="https://www.posindonesia.co.id/en/" target="_blank" class="font-bold text-gray-900 no-underline">POS Indonesia</a> for international shipment.</p>
+			<h3>Payment Options</h3>
+			<p>We are using third-party platform to sell out PyCon Indonesia 2021 ticket. There are some additional fees for your transaction. First, there is a platform fee which charge Rp1.000 + 2% of the ticket price for every ticket you buy.</p>
+			<p>We are accepting lots of payment options. You can pay with Paypal, Credit Card, Bank Transfers, Bank Virtual Account, Convenience Store (Indomaret), and Digital Wallet (GO-PAY/OVO/LinkAja). Each payment option has a payment fee with the following values:</p>
+			<ol>
+              <li>Paypal : 4.7% x Total Purchase Price</li>
+              <li>Credit Card : Rp2.500 + 3.5% x Total Purchase Price</li>
+              <li>Bank Transfer : Rp4.700 (flat)</li>
+              <li>ATM & Internet Banking Mandiri : Rp4.400 (flat)</li>
+              <li>BCA Virtual Account : Rp4.700 (flat)</li>
+              <li>Convenience Store (Indomaret) : Rp9.350 (flat)</li>
+              <li>Digital Wallet (GO-PAY/OVO/LinkAja) : 2% x Total Purchase Price</li>
+			</ol>
+			<p>You are able to buy up to 50 tickets for each ticket in one transaction. But you are required to input the ticket detail information for each of the ticket. You can also choose which of the payment that suits you most.
           </div>
         </div>
         <div class="relative mt-4 text-base mx-auto max-w-prose lg:max-w-none lg:hidden">
