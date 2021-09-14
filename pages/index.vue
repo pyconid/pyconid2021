@@ -19,17 +19,20 @@
       </div>
     </div>
     <SNS />
+    <Twibbon />
   </div>
 </template>
 
 <script>
 import Hero from '@/components/homepage/Hero.vue'
 import SNS from '@/components/global/SNS.vue'
+import Twibbon from '@/components/global/Twibbon.vue'
 
 export default {
   components: {
     Hero,
-    SNS
+    SNS,
+    Twibbon
   },
   head () {
     return {
