@@ -5,11 +5,11 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-    router: {
-      middleware: ['call_for_paper']
-      // if you hosted your repository not as a base / main repository, else comment it
-      //     base: '/pyconid2021/'
-    },
+  router: {
+    middleware: ['call_for_paper']
+    // if you hosted your repository not as a base / main repository, else comment it
+    //     base: '/pyconid2021/'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -94,7 +94,8 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    'nuxt-vite'
   ],
 
   eslint: {
