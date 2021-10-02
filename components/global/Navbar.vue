@@ -72,6 +72,9 @@
             <NuxtLink to="/code-of-conduct" :class="getActiveClass('code-of-conduct')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
               <span class="h-full w-full flex items-center">Code of Conduct</span>
             </NuxtLink>
+            <NuxtLink to="/speaker" :class="getActiveClass('speaker')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <span class="h-full w-full flex items-center">Confirmed Speaker List</span>
+            </NuxtLink>
           </div>
         </div>
         <div class="flex flex-row items-center ml-auto mr-auto lg:hidden">
@@ -97,6 +100,9 @@
           </NuxtLink>
           <NuxtLink to="/code-of-conduct" :class="getActiveMobileClass('code-of-conduct')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             <span class="h-full w-full flex items-center py-2">Code of Conduct</span>
+          </NuxtLink>
+          <NuxtLink to="/speaker" :class="getActiveMobileClass('speaker')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            <span class="h-full w-full flex items-center py-2">Confirmed Speaker List</span>
           </NuxtLink>
         </div>
       </div>
