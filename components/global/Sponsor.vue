@@ -45,6 +45,18 @@
         </div>
       </div>
     </div>
+    <div v-show="sponsors.supports.length > 0" class="mt-10 flex flex-col items-center">
+      <h3 class="text-md font-medium text-gray-900 sm:text-xl sm:tracking-tight lg:text-2xl lg:text-left">
+        Supported By
+      </h3>
+      <div class="max-w-7xl mx-auto my-2 px-4 sm:px-6 lg:px-8">
+        <div class="flex gap-8">
+          <div v-for="sponsor in sponsors.supports" :key="sponsor.image" class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+            <img class="h-40" :src="sponsor.image" alt="Tuple">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -53,7 +65,7 @@ export default {
   data () {
     return {
       sponsors: {
-        show: false,
+        show: true,
         platinum: [
           // { image: 'https://2020.pycon.id/theme/img/supporters/logo-microsoft.png', slug: '' }
         ],
@@ -64,6 +76,9 @@ export default {
         ],
         silver: [
           // { image: 'https://2020.pycon.id/theme/img/supporters/logo-qiscus.png', slug: '' }
+        ],
+        supports: [
+          { image: 'https://ik.imagekit.io/9rpt33mvmla/tr:w-260tr:h-240/logo/PSF-Logo.png', slug: '' }
         ]
       }
     }
