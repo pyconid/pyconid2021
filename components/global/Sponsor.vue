@@ -14,9 +14,9 @@
         Platinum Sponsors
       </h3>
       <div class="max-w-7xl mx-auto my-2 px-4 sm:px-6 lg:px-8">
-        <div class="flex gap-8">
+        <div class="grid-cols-1">
           <div v-for="sponsor in sponsors.platinum" :key="sponsor.image" class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img class="h-40" :src="sponsor.image" alt="Tuple">
+            <img class="object-contain h-36 p-4" :src="sponsor.image" alt="Tuple">
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@
       <div class="max-w-7xl mx-auto my-2 px-4 sm:px-6 lg:px-8">
         <div class="flex flex-wrap justify-center gap-8">
           <div v-for="sponsor in sponsors.gold" :key="sponsor.image" class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img class="h-40" :src="sponsor.image" alt="Tuple">
+            <img class="object-contain h-20 p-2" :src="sponsor.image" alt="Tuple">
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@
       <div class="max-w-7xl mx-auto my-2 px-4 sm:px-6 lg:px-8">
         <div class="flex gap-8">
           <div v-for="sponsor in sponsors.silver" :key="sponsor.image" class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <img class="h-40" :src="sponsor.image" alt="Tuple">
+            <img class="object-contain h-16 p-2" :src="sponsor.image" alt="Tuple">
           </div>
         </div>
       </div>
@@ -67,15 +67,15 @@ export default {
       sponsors: {
         show: true,
         platinum: [
-          // { image: 'https://2020.pycon.id/theme/img/supporters/logo-microsoft.png', slug: '' }
+          { image: 'https://ik.imagekit.io/gelembungsahabat/AWS_logo_RGB_sXBNduNmi.png?updatedAt=1635181586293', slug: '' },
+          { image: 'https://ik.imagekit.io/gelembungsahabat/Microsoft-logo_rgb_c-gray__1__p62pmczHI.png?updatedAt=1635182030898', slug: '' },
+          { image: 'https://ik.imagekit.io/gelembungsahabat/Neo4j-logo_color_WrZ1f_jrh2H.png?updatedAt=1635638154969', slug: '' }
         ],
         gold: [
-          // { image: 'https://2020.pycon.id/theme/img/supporters/logo-scoutapm.png', slug: '' }
-          // { image: 'https://2020.pycon.id/theme/img/supporters/logo-rwid.jpg', slug: '' },
-          // { image: 'https://2020.pycon.id/theme/img/supporters/logo-vonage.png', slug: '' }
+          { image: 'https://ik.imagekit.io/gelembungsahabat/shopee_logo_en_e3hmbkpyN.png?updatedAt=1635638155632', slug: '' }
         ],
         silver: [
-          // { image: 'https://2020.pycon.id/theme/img/supporters/logo-qiscus.png', slug: '' }
+          { image: 'https://ik.imagekit.io/gelembungsahabat/logo-warna__1__wa1MFvQdX.png?updatedAt=1635181524902', slug: '' }
         ],
         supports: [
           { image: 'https://ik.imagekit.io/9rpt33mvmla/tr:w-260tr:h-240/logo/PSF-Logo.png', slug: '' }
