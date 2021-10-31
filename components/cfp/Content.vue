@@ -99,13 +99,13 @@
             <p>It’s preferable if your associated organization’s name/branding is mentioned only at the beginning of the proposal, and the rest of the content is unbiased and generic. Moreover, any platform, technology, browser, and OS biases should also be avoided. Selection status of proposals will be notified via email.</p>
             <p>Feel free to submit multiple proposals. For any questions, please write to <a target="_blank" href="mailto:pycon@python.or.id">pycon@python.or.id</a> Last, but not the least, we accept talks in Bahasa Indonesia and English. After all, it’s PyCon Indonesia!</p>
             <h3>A Little Help for our First Time Speaker</h3>
-			<p>PyCon Indonesia has a strong commitment to make the event more inclusive. therefore we encourage new speakers to deliver their first tech talk in PyCon Indonesia. There are few reources that would be helpful to prepare your proposal and also to deliver your first talk in PyCon Indonesia.</p>
-			<ol role="list">
+            <p>PyCon Indonesia has a strong commitment to make the event more inclusive. therefore we encourage new speakers to deliver their first tech talk in PyCon Indonesia. There are few reources that would be helpful to prepare your proposal and also to deliver your first talk in PyCon Indonesia.</p>
+            <ol role="list">
               <li><a href="https://nnja.medium.com/the-ultimate-guide-to-memorable-tech-talks-e7c350778d4b" target="_blank">The Ultimate Guide To Memorable Tech Talks</a> by Nina Zakharenko</li>
               <li><a href="https://youtu.be/ab9pinvc1Hc" target="_blank">Demystifying Public Speaking</a> by Mariatta Wijaya</li>
               <li><a href="https://youtu.be/QoRu8zEc-mc" target="_blank">Preparing Your First Tech Talk for a Tech Conference (in Bahasa Indonesia)</a> by Tegar Imansyah</li>
-			</ol>
-			<h3>Join Our Stage!</h3>
+            </ol>
+            <h3>Join Our Stage!</h3>
             <p>Register yourself at <a href="https://www.papercall.io/pyconid2021" target="_blank">https://www.papercall.io/pyconid2021</a></p>
           </div>
         </div>
