@@ -9,7 +9,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div v-for="organizer in organizers" :key="organizer.id" class="w-full bg-gray-900 rounded-lg shadow-lg p-12 flex flex-col justify-center items-center">
           <div class="mb-4">
-            <img class="object-center object-cover rounded-full h-36 w-36" :src="`../../assets/image/organizers/${organizer.imageUrl}`" alt="photo">
+            <img class="object-center object-cover rounded-full h-36 w-36" :src="`https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/organizers/${organizer.imageUrl}`" alt="photo">
           </div>
           <div class="text-center">
             <p class="text-xl text-white font-bold mb-2">
