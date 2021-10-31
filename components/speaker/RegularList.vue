@@ -1,7 +1,13 @@
 <template>
   <div class="bg-white overflow-hidden">
-    <div class="relative max-w-7xl mx-auto py-4 px-4 sm:px-6 lq:px-8">
+    <div class="relative max-w-7xl mx-auto py-0 px-4 sm:px-6 lq:px-8">
+      <div class="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
+      <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
+        <div></div>
+      </div>
+
       <div class="mt-8 lg:grid lg:grid-cols-1 lg:gap-2">
+        <div class="text-base max-w-prose lg:max-w-none"></div>
         <div class="relative lg:row-start-1 lg:col-start-2">
           <svg
             class="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20"
@@ -42,7 +48,7 @@
             </div>
             <div class="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
               <div class="space-y-8 sm:space-y-12">
-                <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-4">
+                <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-5">
                   <li v-for="person in people" :key="person.name">
                     <div class="space-y-4">
                       <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24 object-fill" :src="person.imageUrl" alt="">
