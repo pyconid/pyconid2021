@@ -5,7 +5,7 @@
       <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
         <div>
           <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Confirmed Speaker List
+            Our Speakers
           </h3>
         </div>
       </div>
@@ -13,7 +13,7 @@
       <div class="mt-8 lg:grid lg:grid-cols-1 lg:gap-2">
         <div class="text-base max-w-prose lg:max-w-none">
           <p class="text-lg text-gray-500">
-            Keynote Speaker
+            Keynote Speakers
           </p>
         </div>
         <div class="relative lg:row-start-1 lg:col-start-2">
@@ -103,14 +103,6 @@
             </a>
           </div>
         </div>
-      </div>
-      <div class="mt-10 text-base max-w-prose lg:max-w-none">
-        <p class="text-lg text-gray-500">
-          Regular Talk Speaker
-        </p>
-        <h3 class="m-4 text-gray-500">
-          Regular Talk Speaker will be announced soon
-        </h3>
       </div>
     </div>
   </div>
