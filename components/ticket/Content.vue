@@ -42,7 +42,7 @@
           <div class="hidden md:block relative text-base mx-auto max-w-prose lg:max-w-none">
             <figure>
               <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-                <img class="rounded-lg shadow-lg object-cover object-center" src="~/assets/image/Merch-1920.jpg" alt="Ticket Placeholder">
+                <img class="rounded-lg shadow-lg object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/tr:h-360/pyconid2021/tickets/Merch-1920.jpg" alt="Ticket Placeholder">
               </div>
             </figure>
           </div>
@@ -75,7 +75,7 @@
         <div class="relative mt-4 text-base mx-auto max-w-prose lg:max-w-none lg:hidden">
           <figure>
             <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-              <img class="rounded-lg shadow-lg object-cover object-center" src="~/assets/image/Merch-1920.jpg" alt="Ticket Placeholder">
+              <img class="rounded-lg shadow-lg object-cover object-center" src="https://ik.imagekit.io/9rpt33mvmla/tr:h-360/pyconid2021/tickets/Merch-1920.jpg" alt="Ticket Placeholder">
             </div>
           </figure>
         </div>
@@ -86,7 +86,7 @@
             {{ ticket.type }}
           </h3>
           <no-ssr>
-            <img :src="`./assets/image/${ticket.image}`" class="my-4">
+            <img :src="`${ticket.image}`" class="my-4">
           </no-ssr>
           <p class="text-gray-500">
             {{ ticket.description }}
@@ -110,9 +110,9 @@ export default {
   computed: {
     tickets () {
       return [
-        { type: 'Regular Ticket', description: 'This ticket includes event access for two days. We will send the link for the event to your registered email address one week before the event.', image: 'Regular.jpg' },
-        { type: 'Merchandise Ticket', description: 'This ticket includes event access for two days and PyCon ID 2021 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.', image: 'Merchandise.jpg' },
-        { type: 'Patron Ticket', description: 'Be a Patron by supporting this event. Your name will be listed on Patron Section. This ticket includes event access for two days and PyCon ID 2021 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.', image: 'Patron.jpg' }
+        { type: 'Regular Ticket', description: 'This ticket includes event access for two days. We will send the link for the event to your registered email address one week before the event.', image: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360/pyconid2021/tickets/Regular.jpg' },
+        { type: 'Merchandise Ticket', description: 'This ticket includes event access for two days and PyCon ID 2021 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.', image: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360/pyconid2021/tickets/Merchandise.jpg' },
+        { type: 'Patron Ticket', description: 'Be a Patron by supporting this event. Your name will be listed on Patron Section. This ticket includes event access for two days and PyCon ID 2021 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.', image: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360/pyconid2021/tickets/Patron.jpg' }
       ]
     }
   }
