@@ -18,6 +18,7 @@
         </div>
       </div>
     </div>
+    <KeynoteSpeaker />
     <SNS />
     <div>
       <YoutubePlaylist />
@@ -29,12 +30,14 @@
 import Hero from '@/components/homepage/Hero.vue'
 import SNS from '@/components/global/SNS.vue'
 import YoutubePlaylist from '@/components/homepage/YoutubePlaylist.vue'
+import KeynoteSpeaker from '@/components/global/KeynoteSpeaker.vue'
 
 export default {
   components: {
     Hero,
     SNS,
-    YoutubePlaylist
+    YoutubePlaylist,
+    KeynoteSpeaker
   },
   head () {
     return {
