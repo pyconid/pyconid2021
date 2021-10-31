@@ -78,6 +78,9 @@
             <NuxtLink to="/organizer" :class="getActiveClass('organizer')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
               <span class="h-full w-full flex items-center">Organizer</span>
             </NuxtLink>
+            <NuxtLink to="/twibbon" :class="getActiveClass('twibbon')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <span class="h-full w-full flex items-center">Twibbon</span>
+            </NuxtLink>
           </div>
         </div>
         <div class="flex flex-row items-center ml-auto mr-auto lg:hidden">
@@ -109,6 +112,9 @@
           </NuxtLink>
           <NuxtLink to="/organizer" :class="getActiveMobileClass('organizer')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             <span class="h-full w-full flex items-center py-2">Organizer</span>
+          </NuxtLink>
+          <NuxtLink to="/twibbon" :class="getActiveMobileClass('twibbon')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            <span class="h-full w-full flex items-center py-2">Twibbon</span>
           </NuxtLink>
         </div>
       </div>

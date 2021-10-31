@@ -19,7 +19,6 @@
       </div>
     </div>
     <SNS />
-    <Twibbon />
     <div>
       <YoutubePlaylist />
     </div>
@@ -29,14 +28,12 @@
 <script>
 import Hero from '@/components/homepage/Hero.vue'
 import SNS from '@/components/global/SNS.vue'
-import Twibbon from '@/components/global/Twibbon.vue'
 import YoutubePlaylist from '@/components/homepage/YoutubePlaylist.vue'
 
 export default {
   components: {
     Hero,
     SNS,
-    Twibbon,
     YoutubePlaylist
   },
   head () {
