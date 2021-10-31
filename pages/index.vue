@@ -18,6 +18,19 @@
         </div>
       </div>
     </div>
+    <div class="bg-white overflow-hidden">
+      <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lq:px-8">
+        <div class="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
+        <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
+          <div>
+            <h3 class="mt-2 mb-4 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              Keynote Speaker
+            </h3>
+          </div>
+        </div>
+        <KeynoteSpeaker shadow="sm" />
+      </div>
+    </div>
     <SNS />
     <div>
       <YoutubePlaylist />
@@ -29,12 +42,14 @@
 import Hero from '@/components/homepage/Hero.vue'
 import SNS from '@/components/global/SNS.vue'
 import YoutubePlaylist from '@/components/homepage/YoutubePlaylist.vue'
+import KeynoteSpeaker from '@/components/global/KeynoteSpeaker.vue'
 
 export default {
   components: {
     Hero,
     SNS,
-    YoutubePlaylist
+    YoutubePlaylist,
+    KeynoteSpeaker
   },
   head () {
     return {
