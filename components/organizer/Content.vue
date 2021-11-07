@@ -9,7 +9,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div v-for="organizer in organizers" :key="organizer.id" class="w-full bg-gray-900 rounded-lg shadow-lg p-12 flex flex-col justify-center items-center">
           <div class="mb-4">
-            <img class="object-center object-cover rounded-full h-36 w-36" :src="`https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/organizers/${organizer.imageUrl}`" alt="photo">
+            <img class="object-center object-cover rounded-full h-36 w-36" :src="!organizer.isLocal ? `https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/organizers/${organizer.imageUrl}` : `/assets/image/organizers/${organizer.imageUrl}`" alt="photo">
           </div>
           <div class="text-center">
             <p class="text-xl text-white font-bold mb-2">
@@ -59,7 +59,14 @@ export default {
         { id: 5, name: 'gelembungsahabat', imageUrl: 'wildan.jpg', role: 'Associate Product Engineer', institution: 'Zero One Group', linkedin: '', twitter: '', github: '' },
         { id: 6, name: 'Aldion', imageUrl: 'aldion.jpg', role: 'Software Engineer', institution: 'IDN Media', linkedin: 'aldionamirrul', twitter: 'aldionamirrul_', github: 'aldamr01' },
         { id: 7, name: 'Januar K. Suaeb', imageUrl: 'januar.jpg', role: 'Autonomous System Engineer', institution: 'Mitra Informatika', linkedin: 'januarKai', twitter: 'januarKai', github: 'januarks14' },
-        { id: 8, name: 'Adif Maulana', imageUrl: 'adif.jpg', role: 'Software Engineer', institution: 'Bonza', linkedin: 'adifdwimaulana', twitter: 'adifdwimaulana', github: 'adifdwimaulana' }
+        { id: 8, name: 'Adif Maulana', imageUrl: 'adif.jpg', role: 'Software Engineer', institution: 'Bonza', linkedin: 'adifdwimaulana', twitter: 'adifdwimaulana', github: 'adifdwimaulana' },
+        { id: 9, name: 'Christo', imageUrl: 'christo.jpg', role: 'Engineering Manager', institution: 'Alterra', linkedin: 'christoforus-surjoputro', twitter: '3mp3ri0r', github: '3mp3ri0r', isLocal: true },
+        { id: 10, name: 'Gallan', imageUrl: 'gallan.jpg', role: 'QA Engineer', institution: 'IDN Media', linkedin: 'gallanwidyanto', twitter: 'gallanpw', github: 'gallanwidyanto', isLocal: true },
+        { id: 11, name: 'Doni Rubiagatra', imageUrl: 'doni.jpg', role: 'Lead Product Engineer', institution: 'Zero One Group', linkedin: 'rubiagatra', twitter: 'rubiagatra', github: 'rubiagatra', isLocal: true },
+        { id: 12, name: 'Irvan Putra', imageUrl: 'irvan.jpg', role: 'Software Engineer', institution: 'Pashouses.id', linkedin: '', twitter: '', github: '', isLocal: true },
+        { id: 13, name: 'Rendi Dwi', imageUrl: 'rendi.png', role: 'Student', institution: 'Universitas 17 Agustus', linkedin: 'rendi-dwi-hermawan', twitter: '', github: 'rendiwithi', isLocal: true },
+        { id: 14, name: 'Nita', imageUrl: 'nita.jpg', role: 'Contributor', institution: 'MakassarPy', linkedin: 'yuanita-retno-fatmalasari', twitter: 'nhytanyuita', github: 'yrfp307', isLocal: true },
+        { id: 15, name: 'Edo', imageUrl: 'edo.jpg', role: 'Software Engineer', institution: 'Siesta', linkedin: '', twitter: '', github: 'ridhof', isLocal: true }
       ]
     }
   }
