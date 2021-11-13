@@ -290,6 +290,220 @@ export default {
           linkedin: 'https://www.linkedin.com/in/ridwan-fadjar-79781756/',
           instagram: '',
           youtube: ''
+        },
+        {
+          name: 'Fauzan Erich Emmerling',
+          nickname: 'Fauzan',
+          role: 'noon Ecommerce - Senior Engineering Manager',
+          bio: `
+            Senior Engineering Manager at noon Ecommerce. Python Developer since 2010. Co-Founder of Python-ID Jogja. Dreamer, Developer, Husband, Father.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/17%20Fauzan%20Erich%20Emmerling.jpeg',
+          talk_title: 'Growing with Pydantic and FastAPI',
+          twitter: 'https://twitter.com/femmerling',
+          github: 'https://github.com/femmerling',
+          linkedin: 'https://www.linkedin.com/in/femmerling/',
+          instagram: '',
+          youtube: 'https://www.youtube.com/channel/UCyrAS0UBw6TabsivoQIyVmQ'
+        },
+        {
+          name: 'Neeraj Pandey',
+          nickname: 'Neeraj',
+          role: 'Ashoka University',
+          bio: `
+            Neeraj is a senior at Ashoka University. Over the years, he has worked on a variety of full-stack software and data-science applications, as well as Computational-Arts and Quantitative-Finance projects, and likes the challenge of creating new tools and applications.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/18%20Neeraj%20Pandey.jpg',
+          talk_title: 'The Joy of Creating Art with Code.',
+          twitter: 'https://twitter.com/neerajp99',
+          github: 'https://github.com/neerajp99',
+          linkedin: '',
+          instagram: 'https://www.instagram.com/harshcasper/gen0art',
+          youtube: ''
+        },
+        {
+          name: 'Citra Hasana Sagala',
+          nickname: 'Citra',
+          role: 'Solution Engineer',
+          bio: `
+            Saya solution engineer di Esri Indonesia. Saya menyukai GIS dan membaca buku-buku tentang sosial untuk memberikan banyak ide dalam membuat sebuah solusi di pekerjaan saya.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/19%20Citra%20Hasana%20Sagala.png',
+          talk_title: 'Monitoring Hot Spot Secara Real Time',
+          twitter: 'https://twitter.com/Citra_desu',
+          github: 'https://github.com/citrahs',
+          linkedin: 'https://www.linkedin.com/in/citra-hasana/',
+          instagram: 'https://www.instagram.com/harshcasper/citrahsagala',
+          youtube: ''
+        },
+        {
+          name: 'Kuncahyo Setyo Nugroho',
+          nickname: 'Cahyo',
+          role: 'Intelligent System Laboratory, Faculty of Computer Science, Brawijaya University',
+          bio: `
+            Master's student in computer science at the Faculty of Computer Science, Brawijaya University. Member of the Intelligent System Lab. My research on affective computing.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/20%20Kuncahyo%20Setyo%20Nugroho.jpg',
+          talk_title: 'What Makes BERT Special? A Study on Emotion Detection in Text',
+          twitter: '',
+          github: 'https://github.com/ksnugroho',
+          linkedin: 'https://id.linkedin.com/in/ksnugroho',
+          instagram: 'https://www.instagram.com/ksnugroho',
+          youtube: ''
+        },
+        {
+          name: 'Camila Guerrero',
+          nickname: 'Cami',
+          role: 'Software Developer',
+          bio: `
+            Hello! I am Camila Guerrero and I am a software developer, I define myself as an eternal student, I really enjoy learning all the time and I love what I do.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/21%20Camila%20Guerrero.png',
+          talk_title: 'The best of both worlds: Backend and ML with Python',
+          twitter: 'https://twitter.com/mcguegi/',
+          github: 'https://github.com/mcguegi',
+          linkedin: 'https://www.linkedin.com/in/mcguegi/',
+          instagram: 'https://www.instagram.com/mcguegi/',
+          youtube: ''
+        },
+        {
+          name: 'Kalyan Prasad',
+          nickname: 'Kalyan',
+          role: 'Creative Crewz',
+          bio: `
+            A self-taught data scientist/analytics manager, speaker & community first-person, Kalyan has contributed to various tech communities. He enjoys being involved with these communities and helping them grow.  Currently I am associated with the following organizations below:
+            PyCon India – Review Panel Work Group Lead
+            PyConf Hyderabad – Organizing Committee Member
+            Hyderabad Python Users Group – Core Member/ Meetups Organizer
+            Humans for AI – Program Manager for AI learning Community
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/22n%20Kalyan%20Prasad.jpg',
+          talk_title: 'Decision Tree Visualization',
+          twitter: 'https://twitter.com/itskpflow',
+          github: '',
+          linkedin: 'https://www.linkedin.com/in/kalyan-prasad-3a647b22/',
+          instagram: 'https://www.instagram.com/maester_kp',
+          youtube: ''
+        },
+        {
+          name: 'Satria Ady Pradana',
+          nickname: 'Satria',
+          role: 'Cyber Security Consultant',
+          bio: `
+            Red Team, Reverse Engineer, Adversary Emulation, love choco milk more than anything else.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/23%20Satria%20Ady%20Pradana.jpg',
+          talk_title: 'Designing malware for Modern Red-Teaming and Tradecraft Adversary',
+          twitter: 'https://twitter.com/xathrya_',
+          github: 'https://github.com/xathrya',
+          linkedin: 'https://www.linkedin.com/in/xathrya',
+          instagram: 'https://www.instagram.com/xathrya_',
+          youtube: ''
+        },
+        {
+          name: 'Sebastiaan Zeeff',
+          nickname: 'Sebastiaan',
+          role: 'Ordina Pythoneer; Senior Software Engineer',
+          bio: `
+            Sebastiaan is passionate about teaching Python and writing good code. As an owner of Python Discord, he is also actively engaged in the Python community.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/24%20Sebastiaan%20Zeeff.jpg',
+          talk_title: 'The Magic of Self: How Python inserts self into methods',
+          twitter: 'https://twitter.com/SebastiaanZeeff',
+          github: 'https://github.com/SebastiaanZ/',
+          linkedin: 'https://www.linkedin.com/in/sebastiaanzeeff/',
+          instagram: '',
+          youtube: ''
+        },
+        {
+          name: 'Kamal Mustafa',
+          nickname: 'Kamal',
+          role: 'CTO',
+          bio: `
+            Web development enthusiast since early 2000. Kamal has been full stack developer starting with classic ASP and then PHP. Now focusing in Python and Django. Love sharing technical knowledge and insight through blogs and community outreach.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/25%20Kamal%20Mustafa.jpg',
+          talk_title: 'Build multi-tenant task queues using PostgreSQL and Python',
+          twitter: 'https://twitter.com/k4ml',
+          github: 'https://github.com/k4ml',
+          linkedin: '',
+          instagram: '',
+          youtube: ''
+        },
+        {
+          name: 'Miqdad Abdurrahman',
+          nickname: 'Miqdad',
+          role: 'Firmware Engineer; Spora EV',
+          bio: `
+            Engineer, indie game developer, and content creator who love to learn about engineering, leadership, and entrepreneurship with working experiences at three different startups. Seeking challenges in engineering and how to do stuff collaboratively.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/26 Miqdad Abdurrahman.jpg',
+          talk_title: 'Arjuna: Generate Indonesian Poets and Poems using python base NLP model',
+          twitter: 'https://twitter.com/miqdadabdurhman',
+          github: 'https://github.com/miqdude',
+          linkedin: 'https://www.linkedin.com/in/miqdad-abdurrahman-945a03132/',
+          instagram: 'https://www.instagram.com/miq.dude',
+          youtube: ''
+        },
+        {
+          name: 'Devy Azkia Putri',
+          nickname: 'Devy',
+          role: 'Quality Assurance Engineer, at Niceday Indonesia',
+          bio: `
+            Hello, I'm Devy and I working as a quality assurance Engineer in Mental Health Company, it's called Niceday. I have been working as A QA Engineer for almost 4 Years.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/27%20Devy%20Azkia%20Putri.jpg',
+          talk_title: 'Managing 1400+ Test Cases a day, by building a simple E2E test using  Pytest and QaseTMS',
+          twitter: '',
+          github: 'https://github.com/azkiadevy',
+          linkedin: 'https://www.linkedin.com/in/devyazkiaputri/',
+          instagram: 'https://www.instagram.com/devyazkia/',
+          youtube: ''
+        },
+        {
+          name: 'Syahrul Bahar Hamdani',
+          nickname: 'Dani',
+          role: 'Data Science Lead Instructor & Engineer',
+          bio: `
+            Having a background in math, Dani is a self-taught data scientist. He cares about data more than the model and is coincidentally in love with NLP.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/28%20Syahrul%20Bahar%20Hamdani.jpg',
+          talk_title: 'Teaching Using Jupyter Book',
+          twitter: 'https://twitter.com/sbhamdani',
+          github: 'https://github.com/syahrulhamdani',
+          linkedin: 'https://www.linkedin.com/in/sbhamdani/',
+          instagram: 'https://www.instagram.com/sb.hamdani/',
+          youtube: ''
+        },
+        {
+          name: 'Go Frendi Gunawan',
+          nickname: 'Go',
+          role: 'kata.ai',
+          bio: `
+            Sr. Data Engineer at kata.ai, doing some IAC for experimentation. Currently developing a generator/task runner tool named zaruba.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/29%20Go%20Frendi%20Gunawan.jpg',
+          talk_title: 'Infrastructure as Code with Python',
+          twitter: 'https://twitter.com/gofrendiasgard',
+          github: 'https://github.com/goFrendiAsgard',
+          linkedin: 'https://www.linkedin.com/in/go-frendi-gunawan-734819115/',
+          instagram: 'https://www.instagram.com/gofrendiasgard/',
+          youtube: 'https://www.youtube.com/c/GoFrendiGunawan'
+        },
+        {
+          name: 'Galuh Sahid',
+          nickname: 'Galuh',
+          role: 'Google Developer Expert in Machine Learning',
+          bio: `
+            Galuh is a Google Developer Expert in Machine Learning and co-host of Kartini Teknologi podcast.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/30%20Galuh%20Sahid.jpg',
+          talk_title: 'Training our own CLIP model on Indonesian data',
+          twitter: 'https://twitter.com/galuhsahid',
+          github: 'https://github.com/Galuhsahid',
+          linkedin: 'https://www.linkedin.com/in/Galuhsahid/',
+          instagram: '',
+          youtube: ''
         }
       ]
     }
