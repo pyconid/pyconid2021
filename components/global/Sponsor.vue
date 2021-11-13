@@ -57,6 +57,19 @@
         </div>
       </div>
     </div>
+    <div v-show="sponsors.patrons.length > 0" class="mt-12 flex flex-col items-center">
+      <h3 class="text-md font-medium text-gray-900 sm:text-xl sm:tracking-tight lg:text-2xl lg:text-left">
+        Patron
+      </h3>
+      <div class="max-w-7xl mx-auto my-2 px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col sm:flex-row gap-8">
+          <a v-for="sponsor in sponsors.patrons" :key="sponsor.image" :href="sponsor.url" class="col-span-1 flex flex-col sm:flex-row justify-center items-center md:col-span-2 lg:col-span-1 hover:border hover:rounded-xl px-2 py-1">
+            <img class="mx-auto h-12 w-12 rounded-full lg:w-16 lg:h-16 object-fill" :src="sponsor.image" alt="">
+            <p v-text="sponsor.name" class="ml-2 font-medium text-gray-800"></p>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -79,7 +92,24 @@ export default {
         ],
         supports: [
           { image: 'https://ik.imagekit.io/9rpt33mvmla/tr:w-260tr:h-240/logo/PSF-Logo.png', slug: '' }
-        ]
+        ],
+        patrons: [
+          {
+            image: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/patrons/Muhammad%20Irfan%20Luthfi.jpg',
+            name: 'Muhammad Irfan Luthfi',
+            url: 'https://unydevelopernetwork.com'
+          },
+          {
+            image: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/patrons/Griko%20Muhammad%20Sultan%20Nibras.jpeg',
+            name: 'Griko Muhammad Sultan Nibras',
+            url: 'https://griko.id/'
+          },
+          {
+            image: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/patrons/Petra%20Novandi%20Barus.jpg',
+            name: 'Petra Novandi Barus',
+            url: 'https://petrabarus.net'
+          }
+        ],
       }
     }
   }
