@@ -65,7 +65,7 @@
         <div class="flex flex-col sm:flex-row gap-8">
           <a v-for="sponsor in sponsors.patrons" :key="sponsor.image" :href="sponsor.url" class="col-span-1 flex flex-col sm:flex-row justify-center items-center md:col-span-2 lg:col-span-1 hover:border hover:rounded-xl px-2 py-1">
             <img class="mx-auto h-12 w-12 rounded-full lg:w-16 lg:h-16 object-fill" :src="sponsor.image" alt="">
-            <p v-text="sponsor.name" class="ml-2 font-medium text-gray-800"></p>
+            <p class="ml-2 font-medium text-gray-800" v-text="sponsor.name" />
           </a>
         </div>
       </div>
@@ -82,7 +82,8 @@ export default {
         platinum: [
           { image: 'https://ik.imagekit.io/gelembungsahabat/AWS_logo_RGB_sXBNduNmi.png?updatedAt=1635181586293', slug: '' },
           { image: 'https://ik.imagekit.io/gelembungsahabat/Microsoft-logo_rgb_c-gray__1__p62pmczHI.png?updatedAt=1635182030898', slug: '' },
-          { image: 'https://ik.imagekit.io/gelembungsahabat/Neo4j-logo_color_WrZ1f_jrh2H.png?updatedAt=1635638154969', slug: '' }
+          { image: 'https://ik.imagekit.io/gelembungsahabat/Neo4j-logo_color_WrZ1f_jrh2H.png?updatedAt=1635638154969', slug: '' },
+          { image: '/images/Logo_Julo.png', slug: '' }
         ],
         gold: [
           { image: 'https://ik.imagekit.io/gelembungsahabat/shopee_logo_en_e3hmbkpyN.png?updatedAt=1635638155632', slug: '' }
@@ -109,7 +110,7 @@ export default {
             name: 'Petra Novandi Barus',
             url: 'https://petrabarus.net'
           }
-        ],
+        ]
       }
     }
   }
