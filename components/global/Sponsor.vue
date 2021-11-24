@@ -257,7 +257,7 @@ export default {
           {
             image:
               "https://alvian-personal-website.oss-ap-southeast-5.aliyuncs.com/media/unnamed2.png",
-            name: "ALVIAN KURNIANTO",
+            name: "Alvian DK",
             url: "https://alviandk.xyz",
           },
         ],
