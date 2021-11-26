@@ -60,6 +60,9 @@
             <NuxtLink to="/" :class="getActiveClass('index')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
               <span class="h-full w-full flex items-center">Home</span>
             </NuxtLink>
+            <NuxtLink to="/schedule" :class="getActiveClass('schedule')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <span class="h-full w-full flex items-center">Schedule</span>
+            </NuxtLink>
             <NuxtLink to="/sponsorship" :class="getActiveClass('sponsorship')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
               <span class="h-full w-full flex items-center">Sponsorship</span>
             </NuxtLink>
@@ -94,6 +97,9 @@
         <div class="pt-2 pb-3 space-y-1">
           <NuxtLink to="/" :class="getActiveMobileClass('index')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             <span class="h-full w-full flex items-center py-2">Home</span>
+          </NuxtLink>
+          <NuxtLink to="/schedule" :class="getActiveMobileClass('schedule')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            <span class="h-full w-full flex items-center py-2">Schedule</span>
           </NuxtLink>
           <NuxtLink to="/sponsorship" :class="getActiveMobileClass('sponsorship')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             <span class="h-full w-full flex items-center py-2">Sponsorship</span>
