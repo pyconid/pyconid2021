@@ -63,26 +63,26 @@
             <NuxtLink to="/schedule" :class="getActiveClass('schedule')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
               <span class="h-full w-full flex items-center">Schedule</span>
             </NuxtLink>
-            <NuxtLink to="/sponsorship" :class="getActiveClass('sponsorship')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-              <span class="h-full w-full flex items-center">Sponsorship</span>
+            <NuxtLink to="/speaker" :class="getActiveClass('speaker')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <span class="h-full w-full flex items-center">Our Speakers</span>
             </NuxtLink>
             <NuxtLink to="/ticket" :class="getActiveClass('ticket')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
               <span class="h-full w-full flex items-center">Ticket</span>
             </NuxtLink>
-            <NuxtLink to="/call-for-paper" :class="getActiveClass('call-for-paper')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+            <!-- <NuxtLink to="/call-for-paper" :class="getActiveClass('call-for-paper')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
               <span class="h-full w-full flex items-center">Call For Paper</span>
-            </NuxtLink>
+            </NuxtLink> -->
             <NuxtLink to="/code-of-conduct" :class="getActiveClass('code-of-conduct')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
               <span class="h-full w-full flex items-center">Code of Conduct</span>
             </NuxtLink>
-            <NuxtLink to="/speaker" :class="getActiveClass('speaker')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-              <span class="h-full w-full flex items-center">Our Speakers</span>
+            <NuxtLink to="/twibbon" :class="getActiveClass('twibbon')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <span class="h-full w-full flex items-center">Twibbon</span>
+            </NuxtLink>
+            <NuxtLink to="/sponsorship" :class="getActiveClass('sponsorship')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <span class="h-full w-full flex items-center">Sponsorship</span>
             </NuxtLink>
             <NuxtLink to="/organizer" :class="getActiveClass('organizer')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
               <span class="h-full w-full flex items-center">Organizer</span>
-            </NuxtLink>
-            <NuxtLink to="/twibbon" :class="getActiveClass('twibbon')" class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-              <span class="h-full w-full flex items-center">Twibbon</span>
             </NuxtLink>
           </div>
         </div>
@@ -101,26 +101,26 @@
           <NuxtLink to="/schedule" :class="getActiveMobileClass('schedule')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             <span class="h-full w-full flex items-center py-2">Schedule</span>
           </NuxtLink>
-          <NuxtLink to="/sponsorship" :class="getActiveMobileClass('sponsorship')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
-            <span class="h-full w-full flex items-center py-2">Sponsorship</span>
+          <NuxtLink to="/speaker" :class="getActiveMobileClass('speaker')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            <span class="h-full w-full flex items-center py-2">Our Speakers</span>
           </NuxtLink>
           <NuxtLink to="/ticket" :class="getActiveMobileClass('ticket')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             <span class="h-full w-full flex items-center py-2">Ticket</span>
           </NuxtLink>
-          <NuxtLink to="/call-for-paper" :class="getActiveMobileClass('call-for-paper')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+          <!-- <NuxtLink to="/call-for-paper" :class="getActiveMobileClass('call-for-paper')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             <span class="h-full w-full flex items-center py-2">Call for Paper</span>
-          </NuxtLink>
+          </NuxtLink> -->
           <NuxtLink to="/code-of-conduct" :class="getActiveMobileClass('code-of-conduct')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             <span class="h-full w-full flex items-center py-2">Code of Conduct</span>
           </NuxtLink>
-          <NuxtLink to="/speaker" :class="getActiveMobileClass('speaker')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
-            <span class="h-full w-full flex items-center py-2">Our Speakers</span>
+          <NuxtLink to="/twibbon" :class="getActiveMobileClass('twibbon')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            <span class="h-full w-full flex items-center py-2">Twibbon</span>
+          </NuxtLink>
+          <NuxtLink to="/sponsorship" :class="getActiveMobileClass('sponsorship')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            <span class="h-full w-full flex items-center py-2">Sponsorship</span>
           </NuxtLink>
           <NuxtLink to="/organizer" :class="getActiveMobileClass('organizer')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
             <span class="h-full w-full flex items-center py-2">Organizer</span>
-          </NuxtLink>
-          <NuxtLink to="/twibbon" :class="getActiveMobileClass('twibbon')" class="block pl-3 pr-4 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
-            <span class="h-full w-full flex items-center py-2">Twibbon</span>
           </NuxtLink>
         </div>
       </div>
