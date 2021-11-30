@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white overflow-hidden">
-    <div class="relative max-w-7xl mx-auto py-0 px-4 sm:px-6 lq:px-8">
-      <div class="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
+    <div class="relative max-w-7xl mx-auto py-0 px-4 sm:px-6 lg:px-8">
+      <div class="hidden bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
       <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
         <div></div>
       </div>
@@ -10,7 +10,7 @@
         <div class="text-base max-w-prose lg:max-w-none"></div>
         <div class="relative lg:row-start-1 lg:col-start-2">
           <svg
-            class="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20"
+            class="hidden absolute top-0 right-0 -mt-20 -mr-20"
             width="404"
             height="384"
             fill="none"
@@ -40,7 +40,7 @@
           </svg>
         </div>
         <div class="grid-col-1">
-          <div class="bg-white mt-4 mb-8 rounded-lg overflow-hidden lg:w-3/5">
+          <div class="bg-white mt-4 mb-8 rounded-lg overflow-hidden">
             <div class="text-base max-w-prose lg:max-w-none">
               <p class="text-lg text-gray-500">
                 Regular Talk Speakers
@@ -48,7 +48,7 @@
             </div>
             <div class="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
               <div class="space-y-8 sm:space-y-12">
-                <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-5">
+                <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4">
                   <li v-for="person in people" :key="person.name">
                     <div class="space-y-4">
                       <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24 object-fill" :src="person.imageUrl" alt="">
@@ -502,6 +502,96 @@ export default {
           twitter: 'https://twitter.com/galuhsahid',
           github: 'https://github.com/Galuhsahid',
           linkedin: 'https://www.linkedin.com/in/Galuhsahid/',
+          instagram: '',
+          youtube: ''
+        },
+        {
+          name: 'Irwan Shofwan',
+          nickname: 'Irwan',
+          role: 'Cloud Platform Engineer | Gojek',
+          bio: `
+            A Cloud Platform Engineer who interested in cloud native, cybersecurity and cloud computing
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/31%20Irwan%20Shofwan.JPG',
+          talk_title: 'Logging Linux Command using BPF and Python 101',
+          twitter: 'https://twitter.com/irwanshofwan',
+          github: 'https://github.com/irwanshofwan',
+          linkedin: 'https://www.linkedin.com/in/irwanshofwan',
+          instagram: 'https://www.instagram.com/irwnshft',
+          youtube: ''
+        },
+        {
+          name: 'Irwan Butar Butar',
+          nickname: 'Irwan',
+          role: 'Sr. Pre-Sales Consultant | Neo4j',
+          bio: `
+            Irwan is a Sr. Pre-Sales Consultant at Neo4j, serving ASEAN especially Indonesia. Living in Jakara Indonesia. He believes that Graph platform will helps to capture more insights from data that currently hidden inside the data-lake or data-warehouse, waiting to uncover.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/SPONSOR%2001%20Irwan%20Butar%20Butar.jpg',
+          talk_title: 'Building Knowledge Graph using Python and Graph Database',
+          twitter: '',
+          github: '',
+          linkedin: 'https://www.linkedin.com/in/irwanbutarbutar',
+          instagram: '',
+          youtube: ''
+        },
+        {
+          name: 'Intan Septiana',
+          nickname: 'Intan',
+          role: 'Shopee Indonesia',
+          bio: `
+            Intan has been working in the Shopee Indonesia Business Intelligence team since September 2019. She graduated from Universitas Indonesia, majoring in Computer Science. Prior to joining Shopee Indonesia, Intan has built her skills as a data scientist through her work experience in Bizzy and Amalan International.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/SPONSOR%2002%20Intan%20Septiana.jpg',
+          talk_title: 'Making Sense of Geospatial Data to Improve Business',
+          twitter: '',
+          github: '',
+          linkedin: '',
+          instagram: '',
+          youtube: ''
+        },
+        {
+          name: 'Agus Suparno',
+          nickname: 'Agus',
+          role: 'Microsoft MVP',
+          bio: `
+            Agus Kurniawan is a lecturer, researcher, IT consultant, and author. He has various professional experiences in projects, consulting and teaching. Awarded the Microsoft Most Valuable Professional (MVP Data Platform) award for 16 years in a row. Interested in software engineering, machine learning, IoT, networking and security systems.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/SPONSOR%2003%20Agus%20Suparno.jpg',
+          talk_title: 'Containerized Machine Learning: Deploying your ML Applications to Production',
+          twitter: '',
+          github: '',
+          linkedin: '',
+          instagram: '',
+          youtube: ''
+        },
+        {
+          name: 'Ciptoning Hestomo',
+          nickname: 'Toki',
+          role: 'Senior Backend Engineer | JULO',
+          bio: `
+            I would like to be known as a Programmer that has managed to survive the tech industry for a decade. I have passion and tenacity when it comes to learn new things. I think that is the essence of programming as I have experienced. We learn immortality as we never stop learning.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/SPONSOR%2004%20Ciptoning%20Hestomo.jpg',
+          talk_title: 'The Beauty of Mocking in Testing',
+          twitter: '',
+          github: '',
+          linkedin: 'https://www.linkedin.com/in/ciptoning/',
+          instagram: 'https://www.instagram.com/ciptoning.hestomo/',
+          youtube: ''
+        },
+        {
+          name: 'Donnie Prakoso',
+          nickname: 'Donnie',
+          role: 'Developer Advocate | AWS',
+          bio: `
+            Donnie Prakoso is a software engineer, self-proclaimed barista, café racer enthusiast, and Senior Developer Advocate at AWS. He has more than 17 years of experience in the technology industry, from telecommunications, banking to startups. He loves coffee and any discussion of any topics from microservices to AI / ML.
+          `,
+          imageUrl: 'https://ik.imagekit.io/9rpt33mvmla/tr:h-360,w-360,cm-maintain_ratio/pyconid2021/speakers/SPONSOR%2005%20Donnie%20Prakoso.png',
+          talk_title: 'Best practices for Developing with AWS Lambda functions',
+          twitter: 'https://twitter.com/donnieprakoso',
+          github: 'https://github.com/donnieprakoso',
+          linkedin: 'https://www.linkedin.com/in/donnieprakoso',
           instagram: '',
           youtube: ''
         }

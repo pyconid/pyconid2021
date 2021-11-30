@@ -41,26 +41,10 @@
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
           <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            09:30 - 09.40
-          </p>
-          <p class="py-3 flex-1 text-center bg-gray-100">
-            Platinum Sponsor Pitching (Main Stage) [JULO]
-          </p>
-        </div>
-        <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
-          <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            09:40 - 10.40
+            09:30 - 10.40
           </p>
           <p class="py-3 flex-1 text-center bg-gray-100">
             Keynote Speaker 1 (Ainun Najib)
-          </p>
-        </div>
-        <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
-          <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            10:40 - 10.50
-          </p>
-          <p class="py-3 flex-1 text-center bg-gray-100">
-            Session Break
           </p>
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
@@ -77,7 +61,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Python for Government Institution: Producing Better Official Statistics
+              </p>
               <p class="text-xs">
                 Arie Wahyu Wijayanto
               </p>
@@ -94,24 +80,20 @@
                 Pod 2
               </p>
               <p class="p-1 bg-gray-200">
-                EN
-              </p>
-              <p class="p-1 bg-gray-200">
-                Beginner
+                ID
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Training our own CLIP model on Indonesian data
+              </p>
               <p class="text-xs">
-                Ridwan Fadjar Septian
+                Galuh Sahid
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
-                Backend
-              </p>
-              <p class="p-1 bg-gray-50">
-                Monitoring
+                Data Science
               </p>
             </div>
           </div>
@@ -128,7 +110,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Implementasi Teorema Matriks-Pohon dengan PyTorch
+              </p>
               <p class="text-xs">
                 Kemal Maulana Kurniawan
               </p>
@@ -161,7 +145,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                The Importance of Python for Ethical Hacking
+              </p>
               <p class="text-xs">
                 Yahya Fadhluloh AlFatih
               </p>
@@ -178,18 +164,18 @@
                 Pod 5
               </p>
               <p class="p-1 bg-gray-200">
-                ID
+                Sponsor
               </p>
             </div>
             <div class="my-2">
               <p class="text-sm text-primary-600" />
               <p class="text-xs">
-                Agus Suparno
+                Sponsored Talks
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
-                Microsoft
+                Sponsor
               </p>
             </div>
           </div>
@@ -212,14 +198,6 @@
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
           <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            12:45 - 12.50
-          </p>
-          <p class="py-3 flex-1 text-center bg-gray-100">
-            Session Preparation
-          </p>
-        </div>
-        <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
-          <p class="w-full md:w-32 py-3 text-center bg-green-200">
             12:50 - 13.35
           </p>
           <div class="p-2 py-3 flex-1 bg-gray-100 border border-gray-50 rounded">
@@ -232,7 +210,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Monitoring Hot Spot Secara Real Time
+              </p>
               <p class="text-xs">
                 Citra Hasana Sagala
               </p>
@@ -256,7 +236,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Growing with Pydantic and FastAPI
+              </p>
               <p class="text-xs">
                 Fauzan Erich Emmerling
               </p>
@@ -277,7 +259,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Building Knowledge Graph using Python and Graph Database
+              </p>
               <p class="text-xs">
                 Irwan Butar Butar
               </p>
@@ -285,6 +269,12 @@
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
                 Neo4J
+              </p>
+              <p class="p-1 bg-gray-50">
+                GraphQL
+              </p>
+              <p class="p-1 bg-gray-50">
+                Database
               </p>
             </div>
           </div>
@@ -298,7 +288,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Making Sense of Geospatial Data to Improve Business
+              </p>
               <p class="text-xs">
                 Intan Septiana
               </p>
@@ -306,6 +298,12 @@
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
                 Shopee
+              </p>
+              <p class="p-1 bg-gray-50">
+                Data
+              </p>
+              <p class="p-1 bg-gray-50">
+                Machine Learning
               </p>
             </div>
           </div>
@@ -317,45 +315,28 @@
               <p class="p-1 bg-gray-200">
                 EN
               </p>
-              <p class="p-1 bg-gray-200">
-                Beginner
-              </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                The Joy of Creating Art with Code
+              </p>
               <p class="text-xs">
-                Harshdeep Singh
+                Neeraj Pandey
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
-                Quantum Computer
+                Computer Graphics
               </p>
             </div>
           </div>
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
           <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            13:35 - 13.40
+            13:40 - 14.50
           </p>
           <p class="py-3 flex-1 text-center bg-gray-100">
-            Session Break (Ads)
-          </p>
-        </div>
-        <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
-          <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            13:40 - 13.50
-          </p>
-          <p class="py-3 flex-1 text-center bg-gray-100">
-            Platinum Sponsor Pitching 2 (Main Stage)
-          </p>
-        </div>
-        <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
-          <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            13:50 - 14.00
-          </p>
-          <p class="py-3 flex-1 text-center bg-gray-100">
-            Keynote Speaker 2 (Sebastian Ramirez)
+            Keynote Speaker 2 (Sebastian Ramirez) "Modern Python through FastAPI and friends"
           </p>
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
@@ -363,7 +344,7 @@
             14:50 - 15.15
           </p>
           <p class="py-3 flex-1 text-center bg-gray-100">
-            Free Networking (Break Ashar)
+            Free Networking
           </p>
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
@@ -383,7 +364,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Learning Reinforcement Learning with OpenAI Gym
+              </p>
               <p class="text-xs">
                 Ali Akbar Septiandri
               </p>
@@ -411,12 +394,11 @@
               <p class="p-1 bg-gray-200">
                 All
               </p>
-              <p class="p-1 bg-gray-200">
-                Prerecorded
-              </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                A Guided Tour of Caching Patterns
+              </p>
               <p class="text-xs">
                 Nicolas Fränkel
               </p>
@@ -443,7 +425,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Managing 1400+ Test Cases a day, by building a simple E2E test using  Pytest and QaseTMS
+              </p>
               <p class="text-xs">
                 Devy Azkia Putri
               </p>
@@ -470,7 +454,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                The Magic of Self: How Python inserts self into methods
+              </p>
               <p class="text-xs">
                 Sebastiaan Zeeff
               </p>
@@ -494,7 +480,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                The best of both worlds: Backend and ML with Python
+              </p>
               <p class="text-xs">
                 Camila Guerrero
               </p>
@@ -563,26 +551,10 @@
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
           <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            09:30 - 09.40
-          </p>
-          <p class="py-3 flex-1 text-center bg-gray-100">
-            Platinum Sponsor Pitching 4 (Main Stage) [AWS]
-          </p>
-        </div>
-        <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
-          <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            09:40 - 10.40
+            09:30 - 10.40
           </p>
           <p class="py-3 flex-1 text-center bg-gray-100">
             Keynote Speaker 3 (Al Sweigart)
-          </p>
-        </div>
-        <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
-          <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            10:40 - 10.50
-          </p>
-          <p class="py-3 flex-1 text-center bg-gray-100">
-            Session Break
           </p>
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
@@ -595,18 +567,26 @@
                 Pod 1
               </p>
               <p class="p-1 bg-gray-200">
-                ID
+                EN
+              </p>
+              <p class="p-1 bg-gray-200">
+                Beginner
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Monitoring and Logging Django Web Application with Prometheus, ELK and Sentry
+              </p>
               <p class="text-xs">
-                Galuh Sahid
+                Ridwan Fadjar Septian
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
-                Data Science
+                Backend
+              </p>
+              <p class="p-1 bg-gray-50">
+                Monitoring
               </p>
             </div>
           </div>
@@ -623,7 +603,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Blockchain 101: Deploy your first smart contract with Python
+              </p>
               <p class="text-xs">
                 Abdurrachman Mappuji
               </p>
@@ -653,7 +635,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                What Makes BERT Special? A Study on Emotion Detection in Text
+              </p>
               <p class="text-xs">
                 Kuncahyo Setyo Nugroho
               </p>
@@ -683,7 +667,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Unfold Python Secrets to Student
+              </p>
               <p class="text-xs">
                 Andi Dinata
               </p>
@@ -704,7 +690,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                The Beauty of Mocking in Testing
+              </p>
               <p class="text-xs">
                 Ciptoning Hestomo
               </p>
@@ -712,6 +700,12 @@
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
                 JULO
+              </p>
+              <p class="p-1 bg-gray-50">
+                Testing
+              </p>
+              <p class="p-1 bg-gray-50">
+                Automation
               </p>
             </div>
           </div>
@@ -734,14 +728,6 @@
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
           <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            12:55 - 13.00
-          </p>
-          <p class="py-3 flex-1 text-center bg-gray-100">
-            Session Preparation
-          </p>
-        </div>
-        <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
-          <p class="w-full md:w-32 py-3 text-center bg-green-200">
             13:00 - 13.45
           </p>
           <div class="p-2 py-3 flex-1 bg-gray-100 border border-gray-50 rounded">
@@ -757,7 +743,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Build custom wrapper kernels using IPython
+              </p>
               <p class="text-xs">
                 Harsh Bardhan Mishra
               </p>
@@ -784,7 +772,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Build multi-tenant task queues using PostgreSQL and Python
+              </p>
               <p class="text-xs">
                 Kamal Mustafa
               </p>
@@ -808,7 +798,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Teaching Using Jupyter Book
+              </p>
               <p class="text-xs">
                 Syahrul Bahar Hamdani
               </p>
@@ -831,18 +823,26 @@
                 Pod 4
               </p>
               <p class="p-1 bg-gray-200">
-                -
+                ID
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Best practices for Developing with AWS Lambda functions
+              </p>
               <p class="text-xs">
-                Sponsor Speaker 5
+                Donnie Prakoso
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
-                Sponsor
+                AWS
+              </p>
+              <p class="p-1 bg-gray-50">
+                Cloud
+              </p>
+              <p class="p-1 bg-gray-50">
+                Deployment
               </p>
             </div>
           </div>
@@ -859,7 +859,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Infrastructure as Code with Python
+              </p>
               <p class="text-xs">
                 Go Frendi Gunawan
               </p>
@@ -879,14 +881,6 @@
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
           <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            13:45 - 13.50
-          </p>
-          <p class="py-3 flex-1 text-center bg-gray-100">
-            Session Break (Ads)
-          </p>
-        </div>
-        <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
-          <p class="w-full md:w-32 py-3 text-center bg-green-200">
             13:50 - 14.35
           </p>
           <div class="p-2 py-3 flex-1 bg-gray-100 border border-gray-50 rounded">
@@ -902,7 +896,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Decision Tree Visualization
+              </p>
               <p class="text-xs">
                 Kaylan Prasad
               </p>
@@ -929,7 +925,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Using Chaos toolkit to determine resiliency for your web app
+              </p>
               <p class="text-xs">
                 Karan Balkar
               </p>
@@ -952,18 +950,26 @@
                 Pod 3
               </p>
               <p class="p-1 bg-gray-200">
-                -
+                ID
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Developing GraphQL using Azure Function
+              </p>
               <p class="text-xs">
-                Sponsor Speaker 6
+                Yanuar Singgih
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
-                Sponsor
+                Microsoft
+              </p>
+              <p class="p-1 bg-gray-50">
+                Cloud
+              </p>
+              <p class="p-1 bg-gray-50">
+                Data
               </p>
             </div>
           </div>
@@ -976,18 +982,20 @@
                 EN
               </p>
               <p class="p-1 bg-gray-200">
-                All
+                Beginner
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Introduction to Quantum Computation using Qiskit
+              </p>
               <p class="text-xs">
-                Neeraj Pandey
+                Harshdeep Singh
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
-                Computer Graphics
+                Quantum Computing
               </p>
             </div>
           </div>
@@ -997,13 +1005,13 @@
                 Pod 5
               </p>
               <p class="p-1 bg-gray-200">
-                -
+                Sponsor
               </p>
             </div>
             <div class="my-2">
               <p class="text-sm text-primary-600" />
               <p class="text-xs">
-                Sponsor Speaker 7
+                Sponsored Talks
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
@@ -1038,7 +1046,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Building Machine Learning Demos using Python
+              </p>
               <p class="text-xs">
                 Merve Noyan
               </p>
@@ -1061,18 +1071,26 @@
                 Pod 2
               </p>
               <p class="p-1 bg-gray-200">
-                -
+                ID
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Containerized Machine Learning: Deploying your ML Applications to Production
+              </p>
               <p class="text-xs">
-                Sponsor Speaker 8
+                Agus Suparno
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
-                Sponsor
+                Microsoft
+              </p>
+              <p class="p-1 bg-gray-50">
+                Cloud
+              </p>
+              <p class="p-1 bg-gray-50">
+                Deployment
               </p>
             </div>
           </div>
@@ -1089,7 +1107,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Managing Config in Python using Consul and Vault
+              </p>
               <p class="text-xs">
                 Hendri Karisma
               </p>
@@ -1106,13 +1126,13 @@
                 Pod 4
               </p>
               <p class="p-1 bg-gray-200">
-                -
+                Sponsor
               </p>
             </div>
             <div class="my-2">
               <p class="text-sm text-primary-600" />
               <p class="text-xs">
-                Sponsor Speaker 9
+                Sponsored Talks
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
@@ -1134,7 +1154,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Arjuna: Generate Indonesian Poets and Poems using python base NLP model
+              </p>
               <p class="text-xs">
                 Miqdad Abdurrahman
               </p>
@@ -1148,14 +1170,6 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
-          <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            15:45 - 15.50
-          </p>
-          <p class="py-3 flex-1 text-center bg-gray-100">
-            Session Break (Ads)
-          </p>
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
           <p class="w-full md:w-32 py-3 text-center bg-green-200">
@@ -1174,7 +1188,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Logging Linux Command using BPF and Python 101
+              </p>
               <p class="text-xs">
                 Irwan Shofwan
               </p>
@@ -1200,14 +1216,16 @@
                 Pod 2
               </p>
               <p class="p-1 bg-gray-200">
-                EN
+                ID
               </p>
               <p class="p-1 bg-gray-200">
                 Intermediate
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Fooling Your Deep Neural Networks with Torchattacks
+              </p>
               <p class="text-xs">
                 Radical Rakhman Wahid
               </p>
@@ -1237,7 +1255,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Designing malware for Modern Red-Teaming and Tradecraft Adversary
+              </p>
               <p class="text-xs">
                 Satria Ady Pradana
               </p>
@@ -1261,7 +1281,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Python for land monitoring Using Geemap
+              </p>
               <p class="text-xs">
                 Mahmud Isnan
               </p>
@@ -1288,7 +1310,9 @@
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Headless Web UI Automation Test with Python & Google Colab
+              </p>
               <p class="text-xs">
                 Aria Suseno
               </p>
@@ -1302,18 +1326,10 @@
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
           <p class="w-full md:w-32 py-3 text-center bg-green-200">
-            16:55 - 17.00
-          </p>
-          <p class="py-3 flex-1 text-center bg-gray-100">
-            Session Break
-          </p>
-        </div>
-        <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
-          <p class="w-full md:w-32 py-3 text-center bg-green-200">
             17:00 - 17.25
           </p>
           <p class="py-3 flex-1 text-center bg-gray-100">
-            Lightning Talks (5 Person)
+            Lightning Talks
           </p>
         </div>
         <div class="my-2 w-full flex flex-col gap-y-2 md:flex-row md:gap-x-2">
