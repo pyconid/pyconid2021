@@ -551,7 +551,7 @@ export default {
           youtube: ''
         },
         {
-          name: 'Agus Suparno',
+          name: 'Agus Kurniawan',
           nickname: 'Agus',
           role: 'Microsoft MVP',
           bio: `

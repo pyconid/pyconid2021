@@ -1079,7 +1079,7 @@
                 Containerized Machine Learning: Deploying your ML Applications to Production
               </p>
               <p class="text-xs">
-                Agus Suparno
+                Agus Kurniawan
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
