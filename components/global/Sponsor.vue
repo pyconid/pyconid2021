@@ -227,6 +227,11 @@ export default {
               "https://ik.imagekit.io/gelembungsahabat/logo-warna__1__wa1MFvQdX.png?updatedAt=1635181524902",
             slug: "",
           },
+          {
+            image:
+              "https://yukina.aldion.dev/images/scout.png",
+            slug: "",
+          },
         ],
         supports: [
           {
