@@ -164,18 +164,26 @@
                 Pod 5
               </p>
               <p class="p-1 bg-gray-200">
-                Sponsor
+                ID
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Define Cloud Infrastructure in Code with AWS CDK
+              </p>
               <p class="text-xs">
-                Sponsored Talks
+                Teddy Aryono
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
-                Sponsor
+                Cloud
+              </p>
+              <p class="p-1 bg-gray-50">
+                DevOps
+              </p>
+              <p class="p-1 bg-gray-50">
+                AWS
               </p>
             </div>
           </div>
@@ -1005,18 +1013,20 @@
                 Pod 5
               </p>
               <p class="p-1 bg-gray-200">
-                Sponsor
+                EN
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Graph Embeddings: The Secret Ingredient for Relationship Driven AI
+              </p>
               <p class="text-xs">
-                Sponsored Talks
+                Alicia Frame
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
-                Sponsor
+                NEO4J
               </p>
             </div>
           </div>
@@ -1126,18 +1136,20 @@
                 Pod 4
               </p>
               <p class="p-1 bg-gray-200">
-                Sponsor
+                ID
               </p>
             </div>
             <div class="my-2">
-              <p class="text-sm text-primary-600" />
+              <p class="text-sm text-primary-600">
+                Improving Test Automation with PageObject Pattern
+              </p>
               <p class="text-xs">
-                Sponsored Talks
+                Rayhan Dwi Ananda
               </p>
             </div>
             <div class="text-xs flex flex-wrap gap-x-2 gap-y-2">
               <p class="p-1 bg-gray-50">
-                Sponsor
+                JULO
               </p>
             </div>
           </div>
